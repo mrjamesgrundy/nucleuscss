@@ -1,0 +1,6 @@
+<h5>On this Page</h5>
+<ul>
+{% for link in page.links %}
+	<li><a {% if link.link %}href="{{ link.link }}"{% endif %}{% if link.anchor %}href="#{{ link.anchor }}"{% endif %}>{{ link.title }}</a></li>
+{% endfor %}
+</ul>

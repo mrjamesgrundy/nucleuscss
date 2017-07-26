@@ -1,0 +1,7 @@
+#Site Settings
+permalink: pretty
+title: nucleuscss
+description: nucleuscss is a modular BEM and ITCSS framework
+
+#Build Settings
+markdown: kramdown
