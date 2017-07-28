@@ -357,3 +357,45 @@ title: nucleuscss
 ## Color Guide
 
 ## Buttons
+
+### Base
+
+To create a button, add the classname .c-button to any <a>, <button>, <input> element. To style browse buttons wrap a <label> tag around it and append the .c-button class.
+
+For accessibility purposes use type="button" on input elements and role="button" for links that are styled to look like buttons, this enables screen readers to interpret such elements as buttons.
+
+<button class="c-button c-button--medium" type="button">Button</button>
+<button class="c-button c-button--medium" type="submit">Submit button</button>
+<a href="#" class="c-button c-button--medium" role="button">Link Button</a>
+<input class="c-button c-button--medium" type="button" value="Input button">
+<input class="c-button c-button--medium" type="submit" value="Input submit button">
+<label class="c-button c-button--medium">Browse Button<input class="is-hidden" type="file"></label>
+
+<h5 id="html">HTML</h5>
+
+{% highlight html %}
+<button class="c-button c-button--medium" type="button">Button</button>
+<button class="c-button c-button--medium" type="submit">Submit button</button>
+<a href="#" class="c-button c-button--medium" role="button">Link Button</a>
+<input class="c-button c-button--medium" type="button" value="Input button">
+<input class="c-button c-button--medium" type="submit" value="Input submit button">
+<label class="c-button c-button--medium">Browse Button<input class="is-hidden" type="file"></label>
+{% endhighlight %}
+
+### Styles
+
+Different styles of buttons can be used depending on the aesthetics of your application, apply a modifying class to c-button as seen in the examples below.
+
+<button class="c-button c-button--medium t-button--pink" type="button">Default</button>
+<button class="c-button c-button--medium c-button--rounded t-button--pink" type="button">Rounded</button>
+<button class="c-button c-button--medium c-button--ghost t-button--ghost-pink" type="button">Ghost</button>
+<button class="c-button c-button--medium c-button--link t-button--link-pink" type="button">Link</button>
+
+<h5 id="html">HTML</h5>
+
+{% highlight html %}
+<button class="c-button c-button--medium t-button--pink" type="button">Default</button>
+<button class="c-button c-button--medium c-button--rounded t-button--pink" type="button">Rounded</button>
+<button class="c-button c-button--medium c-button--ghost t-button--ghost-pink" type="button">Ghost</button>
+<button class="c-button c-button--medium c-button--link t-button--link-pink" type="button">Link</button>
+{% endhighlight %}
