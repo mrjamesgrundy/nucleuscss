@@ -1,2 +1,50 @@
 body {
   background-color: #000000; }
+
+.u-primary-100 {
+  background-color: #000066; }
+
+.u-primary-80 {
+  background-color: #333385; }
+
+.u-primary-60 {
+  background-color: #6666a3; }
+
+.u-primary-40 {
+  background-color: #9999c2; }
+
+.u-primary-20 {
+  background-color: #cccce0; }
+
+.u-secondary-100 {
+  background-color: #cc0000; }
+
+.u-secondary-80 {
+  background-color: #d63333; }
+
+.u-secondary-60 {
+  background-color: #e06666; }
+
+.u-secondary-40 {
+  background-color: #eb9999; }
+
+.u-secondary-20 {
+  background-color: #f5cccc; }
+
+.u-accent-100 {
+  background-color: #191919; }
+
+.u-accent-80 {
+  background-color: #4c4c4c; }
+
+.u-accent-60 {
+  background-color: #7f7f7f; }
+
+.u-accent-40 {
+  background-color: #b2b2b2; }
+
+.u-accent-20 {
+  background-color: #e5e5e5; }
+
+body {
+  background-color: #000000; }
