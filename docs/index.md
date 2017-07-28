@@ -5,6 +5,18 @@ title: nucleuscss
 
 ## Typography
 
+##### ON THIS PAGE
+
+<ul>
+	<li><a href="#hierarchy">Hierarchy</a></li>
+	<li><a href="#weights-and-types">Weights and Types</a></li>
+	<li><a href="#alignment">Alignment</a></li>
+	<li><a href="#abbreviations">Abbreviations</a></li>
+	<li><a href="#lists">Lists</a></li>
+	<li><a href="#styles">Styles</a></li>
+	<li><a href="#usage">Usage</a></li>
+</ul>
+
 ### Hierarchy
 
 #### Heading 1
@@ -356,7 +368,73 @@ title: nucleuscss
 
 ## Color Guide
 
+##### ON THIS PAGE
+
+<ul>
+	<li><a href="#primary-colors">Primary Colors</a></li>
+	<li><a href="#secondary-colors">Secondary Colors</a></li>
+	<li><a href="#accent-colors">Accent Colors</a></li>
+</ul>
+
+### Primary Colors
+
+<h6>Primary 100</h6>
+<code>#000066</code>
+
+<h6>Primary 80</h6>
+<code>#333385</code>
+
+<h6>Primary 60</h6>
+<code>#6666a3</code>
+
+<h6>Primary 40</h6>
+<code>#9999c2</code>
+
+<h6>Primary 20</h6>
+<code>#cccce0</code>
+
+### Secondary Colors
+
+<h6>Secondary 100</h6>
+<code>#cc0000</code>
+
+<h6>Secondary 80</h6>
+<code>#d63333</code>
+
+<h6>Secondary 60</h6>
+<code>#e06666</code>
+
+<h6>Secondary 40</h6>
+<code>#eb9999</code>
+
+<h6>Secondary 20</h6>
+<code>#f5cccc</code>
+
+### Accent Colors
+
+<h6>Accent 100</h6>
+<code>#191919</code>
+
+<h6>Accent 80</h6>
+<code>#4c4c4c</code>
+
+<h6>Accent 60</h6>
+<code>#7f7f7f</code>
+
+<h6>Accent 40</h6>
+<code>#b2b2b2</code>
+
+<h6>Accent 20</h6>
+<code>#e5e5e5</code>
+
 ## Buttons
+
+##### ON THIS PAGE
+
+<ul>
+	<li><a href="#base">Base</a></li>
+	<li><a href="#styles">Styles</a></li>
+</ul>
 
 ### Base
 
