@@ -346,11 +346,12 @@ sub: Style Guide
     <h6>Primary 100</h6>
     <code>#000066</code>
   </div>
+
+  <div class="o-swatch__background o-swatch__background--primary-80">
+    <h6>Primary 80</h6>
+    <code>#333385</code>
+  </div>
 </div>
-
-
-<h6>Primary 80</h6>
-<code>#333385</code>
 
 <h6>Primary 60</h6>
 <code>#6666a3</code>

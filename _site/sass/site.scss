@@ -30,11 +30,14 @@
   height: 150px;
 
   .o-swatch__background {
-    background: transparent;
-    margin: 0;
+    color: $u-accent-0;
   }
 
   .o-swatch__background--primary-100 {
     background-color: $u-primary-100;
+  }
+
+  .o-swatch__background--primary-80 {
+    background-color: $u-primary-80;
   }
 }
