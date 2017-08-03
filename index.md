@@ -4,7 +4,7 @@ title: nucleuscss
 sub: Style Guide
 ---
 
-##### ON THIS PAGE
+##### On this page
 * [Typography](#typography "Typography")
 * [Colors](#colors "Colors")
 * [Buttons](#buttons "Buttons")
