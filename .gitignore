@@ -2,11 +2,10 @@ node_modules
 dist
 .sass-cache
 *.css.map
-.idea
 gulpfile.js
 package.json
 package-lock.json
 Gemfile.lock
-*css/nucleus.css
-*css/site.min.css
-*sass
+/css/nucleus.css
+/css/site.min.css
+/sass
