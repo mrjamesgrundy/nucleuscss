@@ -7,5 +7,6 @@ gulpfile.js
 package.json
 package-lock.json
 Gemfile.lock
-css/nucleus.css
-sass
+*css/nucleus.css
+*css/site.min.css
+*sass
