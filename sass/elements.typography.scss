@@ -1,9 +1,5 @@
 @import "tools/mixin.typography";
 
-// .e-heading {
-//   @include heading;
-// }
-
 .e-heading--main {
   @include heading--main;
 }
