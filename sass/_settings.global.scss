@@ -1,72 +1,85 @@
-// Colors
-.u-primary-100 {
-  background-color: #000066;
-}
+/*
+* Colors
+*/
 
-.u-primary-80 {
-  background-color: #333385;
-}
+// Brand Primary
+$u-primary-100: #000066;
+$u-primary-80: #333385;
+$u-primary-60: #6666a3;
+$u-primary-40: #9999c2;
+$u-primary-20: #cccce0;
 
-.u-primary-60 {
-  background-color: #6666a3;
-}
+// Brand Secondary
+$u-secondary-100: #cc0000;
+$u-secondary-80: #d63333;
+$u-secondary-60: #e06666;
+$u-secondary-40: #eb9999;
+$u-secondary-20: #f5cccc;
 
-.u-primary-40 {
-  background-color: #9999c2;
-}
+// Monotone
+$u-accent-100: #191919;
+$u-accent-80: #4c4c4c;
+$u-accent-60: #7f7f7f;
+$u-accent-40: #b2b2b2;
+$u-accent-20: #e5e5e5;
+$u-accent-0: #ffffff;
 
-.u-primary-20 {
-  background-color: #cccce0;
-}
+// UI
+$u-success: #43b36c;
+$u-information: #f68f23;
+$u-error: #ea4747;
 
-.u-secondary-100 {
-  background-color: #cc0000;
-}
+/*
+* Typography
+*/
+$text-font-size-xsmall: .53rem !default;
+$text-font-size-small: .73rem !default;
+$text-font-size-medium: .83rem !default;
+$text-font-size-large: .93rem !default;
+$text-font-size-xlarge: 1rem !default;
 
-.u-secondary-80 {
-  background-color: #d63333;
-}
+$text-font-weight: normal !default;
+$text-font-weight-heavy: bold !default;
+$text-line-height: 1.53rem !default;
 
-.u-secondary-60 {
-  background-color: #e06666;
-}
+$text-color: $u-secondary-80 !default;
 
-.u-secondary-40 {
-  background-color: #eb9999;
-}
+/*
+* Buttons & Links
+*/
 
-.u-secondary-20 {
-  background-color: #f5cccc;
-}
 
-.u-accent-100 {
-  background-color: #191919;
-}
+/*
+* Borders
+*/
+$border-width: 1px !default;
+$border-style: solid !default;
+$border-color: $u-secondary-60 !default;
 
-.u-accent-80 {
-  background-color: #4c4c4c;
-}
+/*
+* Border radius
+*/
+$border-radius: 4px !default;
+$border-radius-rounded: 40rem !default;
 
-.u-accent-60 {
-  background-color: #7f7f7f;
-}
+/*
+* Spacing
+*/
+$spacing-xsmall: .125rem !default;
+$spacing-small: .25rem !default;
+$spacing-medium: .5rem !default;
+$spacing-large: .75rem !default;
+$spacing-xlarge: .95rem !default;
+$spacing-xxlarge: 1rem !default;
 
-.u-accent-40 {
-  background-color: #b2b2b2;
-}
+/*
+* Labels
+*/
 
-.u-accent-20 {
-  background-color: #e5e5e5;
-}
+/*
+* Status
+*/
 
-.u-success {
-  background-color: #43b36c;
-}
-
-.u-information {
-  background-color: #f68f23;
-}
-
-.u-error {
-  background-color: #ea4747;
-}
+/*
+* Focus styles
+*/

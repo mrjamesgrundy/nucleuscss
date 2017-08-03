@@ -2,11 +2,18 @@
 <html lang="en" class="no-js">
 
 {% include head.html %}
-<body>
-  <div>
-    <h1><b>nucleus</b>css</h1>
+<body class="o-docs">
+  <div class="o-docs__header">
+    <h1>{{ page.title }} {{ page.label }}</h1>
+    <h2>{{ page.sub }}</h2>
   </div>
 
-  {{ content }}
+  <div class="o-app__content">
+    {{ content }}
+  </div>
+
+  <div class="o-app__footer">
+    nucleuscss
+  </div>
 </body>
 </html>

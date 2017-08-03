@@ -1,21 +1,18 @@
 ---
 layout: home
 title: nucleuscss
+sub: Text
 ---
 
-## Typography
-
 ##### ON THIS PAGE
+* [Hierarchy](#hierarchy "Hierarchy")
+* [Weights and Types](#weights-and-types "Weights and Types")
+* [Hierarchy](#abbreviations "Abbreviations")
+* [Lists](#lists "Lists")
+* [Styles](#styles "Styles")
+* [Usage](#usage "Usage")
 
-<ul>
-	<li><a href="#hierarchy">Hierarchy</a></li>
-	<li><a href="#weights-and-types">Weights and Types</a></li>
-	<li><a href="#alignment">Alignment</a></li>
-	<li><a href="#abbreviations">Abbreviations</a></li>
-	<li><a href="#lists">Lists</a></li>
-	<li><a href="#styles">Styles</a></li>
-	<li><a href="#usage">Usage</a></li>
-</ul>
+## Typography
 
 ### Hierarchy
 
