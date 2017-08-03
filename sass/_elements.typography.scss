@@ -1,0 +1,85 @@
+@import "tools/mixin.typography";
+
+.e-heading {
+  @include heading;
+}
+
+.e-heading--main {
+  @include heading--main;
+}
+
+.e-heading__sub {
+  @include heading--sub;
+}
+
+.e-heading--section {
+  @include heading--section;
+}
+
+.e-heading--descriptive {
+  @include heading--descriptive;
+}
+
+.e-heading--overview {
+  @include heading--overview;
+}
+
+.e-heading--headline {
+  @include heading--headline;
+}
+
+// .e-text {
+//   @include text;
+// }
+//
+// .e-text--mono {
+//   @include text--mono;
+// }
+//
+// .e-text--highlight {
+//   @include text--highlight;
+// }
+//
+// .e-text--quiet {
+//   @include text--quiet;
+// }
+//
+// .e-text--loud {
+//   @include text--loud;
+// }
+//
+// .e-text--help[title] {
+//   @include text--help;
+// }
+//
+// .e-pre {
+//   margin: 0;
+// }
+//
+// .e-code {
+//   @include code;
+// }
+//
+// .e-code--multiline {
+//   @include code--multiline;
+// }
+//
+// .e-kbd {
+//   @include keyboard-keys;
+// }
+//
+// .e-blockquote {
+//   @include quotation;
+// }
+//
+// .e-blockquote__body {
+//   @include quotation__body;
+// }
+//
+// .e-blockquote__footer {
+//   @include quotation__footer;
+// }
+//
+// .e-paragraph {
+//   @include paragraph;
+// }

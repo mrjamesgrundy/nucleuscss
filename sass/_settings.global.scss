@@ -32,6 +32,16 @@ $u-error: #ea4747;
 /*
 * Typography
 */
+
+// Headings
+$heading--main: 2.5rem !default;
+$heading--sub: 1.7rem !default;
+$heading--section: 1.5rem !default;
+$heading--descriptive: 1.1rem !default;
+$heading--headline: 1rem !default;
+$heading--overview: .83rem !default;
+
+// Text
 $text-font-size-xsmall: .53rem !default;
 $text-font-size-small: .73rem !default;
 $text-font-size-medium: .83rem !default;
@@ -43,6 +53,7 @@ $text-font-weight-heavy: bold !default;
 $text-line-height: 1.53rem !default;
 
 $text-color: $u-secondary-80 !default;
+
 
 /*
 * Buttons & Links
@@ -56,11 +67,13 @@ $border-width: 1px !default;
 $border-style: solid !default;
 $border-color: $u-secondary-60 !default;
 
+
 /*
 * Border radius
 */
 $border-radius: 4px !default;
 $border-radius-rounded: 40rem !default;
+
 
 /*
 * Spacing
@@ -72,13 +85,16 @@ $spacing-large: .75rem !default;
 $spacing-xlarge: .95rem !default;
 $spacing-xxlarge: 1rem !default;
 
+
 /*
 * Labels
 */
 
+
 /*
 * Status
 */
+
 
 /*
 * Focus styles

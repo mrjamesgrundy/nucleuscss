@@ -1,79 +1,68 @@
 ---
 layout: home
 title: nucleuscss
-sub: Text
+sub: Style Guide
 ---
 
 ##### ON THIS PAGE
-* [Hierarchy](#hierarchy "Hierarchy")
-* [Weights and Types](#weights-and-types "Weights and Types")
-* [Hierarchy](#abbreviations "Abbreviations")
-* [Lists](#lists "Lists")
-* [Styles](#styles "Styles")
-* [Usage](#usage "Usage")
+* [Typography](#typography "Typography")
+* [Colors](#colors "Colors")
+* [Buttons](#buttons "Buttons")
 
 ## Typography
 
 ### Hierarchy
 
 #### Heading 1
-
-<h1 class="c-heading-main">Open Sans Semibold 600 32px</h1>
+<h1 class="e-heading-main">Open Sans Semibold 600 32px</h1>
 
 {% highlight html %}
-<h1 class="c-heading-main">Open Sans Semibold 600 32px</h1>
+
 {% endhighlight %}
 
 #### Heading 2
-
-<h2 class="c-heading-sub">Open Sans Semibold 600 24px</h2>
+<h2 class="e-heading-sub">Open Sans Semibold 600 24px</h2>
 
 {% highlight html %}
-<h2 class="c-heading-sub">Open Sans Semibold 600 24px</h2>
+
 {% endhighlight %}
 
 #### Heading 3
-
-<h3 class="c-heading-section">Open Sans Semibold 600 20px</h3>
+<h3 class="e-heading-section">Open Sans Semibold 600 20px</h3>
 
 {% highlight html %}
-<h3 class="c-heading-section">Open Sans Semibold 600 20px</h3>
+
 {% endhighlight %}
 
 #### Heading 4
-
-<h4 class="c-heading-descriptive">Open Sans Semibold 600 16px</h4>
+<h4 class="e-heading-descriptive">Open Sans Semibold 600 16px</h4>
 
 {% highlight html %}
-<h4 class="c-heading-descriptive">Open Sans Semibold 600 16px</h4>
+
 {% endhighlight %}
 
 #### Heading 5
-
-<h5 class="c-heading-overview">Open Sans Semibold 700 14px</h5>
+<h5 class="e-heading-overview">Open Sans Semibold 700 14px</h5>
 
 {% highlight html %}
-<h5 class="c-heading-overview">Open Sans Semibold 700 14px</h5>
+
 {% endhighlight %}
 
 #### Heading 6
-
-<h6 class="c-heading-headline">Open Sans Bold 700 14px</h6>
+<h6 class="e-heading-headline">Open Sans Bold 700 14px</h6>
 
 {% highlight html %}
-<h6 class="c-heading-headline">Open Sans Bold 700 14px</h6>
+
 {% endhighlight %}
 
 #### Paragraph
-
-<p class="c-paragraph">Open Sans Regular 400 13px</p>
+<p class="e-paragraph">Open Sans Regular 400 13px</p>
 
 {% highlight html %}
-<p class="c-paragraph">Open Sans Regular 400 13px</p>
+
 {% endhighlight %}
 
 #### Code
-
 <code class="c-code">Monospace Regular 14px</code>
 
 {% highlight html %}
@@ -81,21 +70,16 @@ sub: Text
 {% endhighlight %}
 
 #### Blockquote
-
 <blockquote class="c-blockquote">
   <p class="c-blockquote__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
   <footer class="c-blockquote__footer">Source Name, <cite title="Source Title">Source Title</cite></footer>
 </blockquote>
 
 {% highlight html %}
-<blockquote class="c-blockquote">
-  <p class="c-blockquote__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-  <footer class="c-blockquote__footer">Source Name, <cite title="Source Title">Source Title</cite></footer>
-</blockquote>
+
 {% endhighlight %}
 
 ### Alignment
-
 <p class="c-paragraph u-typography--left">Text align content left</p>
 <p class="c-paragraph u-typography--center">Text align content center</p>
 <p class="c-paragraph u-typography--right">Text align content right</p>
@@ -111,15 +95,13 @@ sub: Text
 {% endhighlight %}
 
 ### Abbreviations
-
 <p class="c-paragraph"><abbr class="c-paragraph--help" title="Help text">Help Text</abbr></p>
 
 {% highlight html %}
-<p class="c-paragraph"><abbr class="c-paragraph--help" title="Help text">Help Text</abbr></p>
+
 {% endhighlight %}
 
 ### Weights and Types
-
 <p class="c-paragraph u-typography--bold">Open Sans Bold 700</p>
 <p class="c-paragraph u-typography--semi-bold">Open Sans Semi Bold 600</p>
 <p class="c-paragraph u-typography--regular">Open Sans Regular 400</p>
@@ -135,7 +117,6 @@ sub: Text
 ### Lists
 
 #### Definition List
-
 <dl class="c-definition-list">
   <dt>Definition list title 1</dt>
   <dd>Definition list description 1</dd>
@@ -157,7 +138,6 @@ sub: Text
 {% endhighlight %}
 
 #### Ordered List
-
 <ol class="c-ordered-list">
   <li>List item 1</li>
   <li>List item 2</li>
@@ -193,7 +173,6 @@ sub: Text
 {% endhighlight %}
 
 #### Unordered List
-
 <ul class="c-unordered-list">
   <li>List item 1</li>
   <li>List item 2</li>
@@ -229,7 +208,6 @@ sub: Text
 {% endhighlight %}
 
 #### Unstyled List
-
 <ul class="c-unordered-list c-unordered-list--unstyled">
   <li>List item 1</li>
   <li>List item 2</li>
@@ -265,7 +243,6 @@ sub: Text
 {% endhighlight %}
 
 #### Inline List
-
 <ul class="c-unordered-list c-unordered-list--inline">
   <li>List item 1</li>
   <li>List item 2</li>
@@ -281,7 +258,6 @@ sub: Text
 {% endhighlight %}
 
 ### Styles
-
 <p class="c-paragraph"><span class="u-typography--primary">Primary</span></p>
 <p class="c-paragraph"><span class="u-typography--success">Success</span></p>
 <p class="c-paragraph"><span class="u-typography--info">Info</span></p>
@@ -305,7 +281,6 @@ sub: Text
 {% endhighlight %}
 
 ### Usage
-
 <h1 class="c-heading-main">Main Headline</h1>
 <h2 class="c-heading-sub u-typography--quiet">Sub Headline</h2>
 <h6 class="c-heading-headline u-typography--info">Date / Time</h6>
@@ -363,20 +338,16 @@ sub: Text
   <dd><a href="#" title="Definition list description 3">Definition list description 3</a></dd>
 </dl>
 
-## Color Guide
+## Colors
 
-##### ON THIS PAGE
+### Brand Primary
+<div class="o-swatch">
+  <div class="o-swatch__background o-swatch__background--primary-100">
+    <h6>Primary 100</h6>
+    <code>#000066</code>
+  </div>
+</div>
 
-<ul>
-	<li><a href="#primary-colors">Primary Colors</a></li>
-	<li><a href="#secondary-colors">Secondary Colors</a></li>
-	<li><a href="#accent-colors">Accent Colors</a></li>
-</ul>
-
-### Primary Colors
-
-<h6>Primary 100</h6>
-<code>#000066</code>
 
 <h6>Primary 80</h6>
 <code>#333385</code>
@@ -390,8 +361,7 @@ sub: Text
 <h6>Primary 20</h6>
 <code>#cccce0</code>
 
-### Secondary Colors
-
+### Brand Secondary
 <h6>Secondary 100</h6>
 <code>#cc0000</code>
 
@@ -407,8 +377,7 @@ sub: Text
 <h6>Secondary 20</h6>
 <code>#f5cccc</code>
 
-### Accent Colors
-
+### Monotone
 <h6>Accent 100</h6>
 <code>#191919</code>
 
@@ -424,29 +393,17 @@ sub: Text
 <h6>Accent 20</h6>
 <code>#e5e5e5</code>
 
+### UI
+
 ## Buttons
 
-##### ON THIS PAGE
-
-<ul>
-	<li><a href="#base">Base</a></li>
-	<li><a href="#styles">Styles</a></li>
-</ul>
-
 ### Base
-
-To create a button, add the classname .c-button to any <a>, <button>, <input> element. To style browse buttons wrap a <label> tag around it and append the .c-button class.
-
-For accessibility purposes use type="button" on input elements and role="button" for links that are styled to look like buttons, this enables screen readers to interpret such elements as buttons.
-
 <button class="c-button c-button--medium" type="button">Button</button>
 <button class="c-button c-button--medium" type="submit">Submit button</button>
 <a href="#" class="c-button c-button--medium" role="button">Link Button</a>
 <input class="c-button c-button--medium" type="button" value="Input button">
 <input class="c-button c-button--medium" type="submit" value="Input submit button">
 <label class="c-button c-button--medium">Browse Button<input class="is-hidden" type="file"></label>
-
-<h5 id="html">HTML</h5>
 
 {% highlight html %}
 <button class="c-button c-button--medium" type="button">Button</button>
@@ -455,22 +412,4 @@ For accessibility purposes use type="button" on input elements and role="button"
 <input class="c-button c-button--medium" type="button" value="Input button">
 <input class="c-button c-button--medium" type="submit" value="Input submit button">
 <label class="c-button c-button--medium">Browse Button<input class="is-hidden" type="file"></label>
-{% endhighlight %}
-
-### Styles
-
-Different styles of buttons can be used depending on the aesthetics of your application, apply a modifying class to c-button as seen in the examples below.
-
-<button class="c-button c-button--medium t-button--pink" type="button">Default</button>
-<button class="c-button c-button--medium c-button--rounded t-button--pink" type="button">Rounded</button>
-<button class="c-button c-button--medium c-button--ghost t-button--ghost-pink" type="button">Ghost</button>
-<button class="c-button c-button--medium c-button--link t-button--link-pink" type="button">Link</button>
-
-<h5 id="html">HTML</h5>
-
-{% highlight html %}
-<button class="c-button c-button--medium t-button--pink" type="button">Default</button>
-<button class="c-button c-button--medium c-button--rounded t-button--pink" type="button">Rounded</button>
-<button class="c-button c-button--medium c-button--ghost t-button--ghost-pink" type="button">Ghost</button>
-<button class="c-button c-button--medium c-button--link t-button--link-pink" type="button">Link</button>
 {% endhighlight %}

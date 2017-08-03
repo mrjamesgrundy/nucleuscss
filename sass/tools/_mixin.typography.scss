@@ -1,0 +1,25 @@
+@import "settings.global";
+
+@mixin heading--main {
+  font-size: $heading--main;
+}
+
+@mixin heading--sub {
+  font-size: $heading--sub;
+}
+
+@mixin heading--section {
+  font-size: $heading--section;
+}
+
+@mixin heading--descriptive {
+  font-size: $heading--descriptive;
+}
+
+@mixin heading--overview {
+  font-size: $heading--overview;
+}
+
+@mixin heading--headline {
+  font-size: $heading--headline;
+}

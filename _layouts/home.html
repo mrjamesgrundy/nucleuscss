@@ -3,17 +3,17 @@
 
 {% include head.html %}
 <body class="o-docs">
-  <div class="o-docs__header">
-    <h1>{{ page.title }} {{ page.label }}</h1>
-    <h2>{{ page.sub }}</h2>
-  </div>
+  <header class="o-docs__header">
+    <h1 class="e-heading e-heading--large">{{ page.title }} {{ page.label }}</h1>
+    <h2 class="e-heading e-heading--sub">{{ page.sub }}</h2>
+  </header>
 
-  <div class="o-app__content">
+  <section class="o-docs__content">
     {{ content }}
-  </div>
+  </section>
 
-  <div class="o-app__footer">
+  <footer class="o-docs__footer">
     nucleuscss
-  </div>
+  </footer>
 </body>
 </html>
