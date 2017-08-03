@@ -2,6 +2,9 @@
 permalink: pretty
 title: nucleuscss
 description: nucleuscss is a modular BEM and ITCSS framework
+baseurl: '' # the subpath of your site, e.g. /blog/
+url: 'https://mrjamesgrundy.github.io/nucleuscss/' # the base hostname & protocol for your site
+
 
 #Build Settings
 markdown: kramdown
