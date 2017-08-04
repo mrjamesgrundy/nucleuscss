@@ -27,7 +27,9 @@
 // Color swatches
 .o-swatch {
   width: 200px;
-  height: 60px;
+  height: 80px;
+
+    h6, code { padding: 5px; }
 
   .o-swatch__background {
     color: $u-accent-0;
@@ -91,5 +93,17 @@
 
   .o-swatch__background--accent-20 {
     background-color: $u-accent-20;
+  }
+
+  .o-swatch__background--success {
+    background-color: $u-success;
+  }
+
+  .o-swatch__background--information {
+    background-color: $u-information;
+  }
+
+  .o-swatch__background--error {
+    background-color: $u-error;
   }
 }

@@ -14,45 +14,45 @@ sub: Style Guide
 ### Hierarchy
 
 #### Heading 1
-<h1 class="e-heading-main">Open Sans Semibold 600 32px</h1>
+<h1 class="e-heading--main">Open Sans Semibold 600 32px</h1>
 
 {% highlight html %}
-
+<h1 class="e-heading--main">Open Sans Semibold 600 32px</h1>
 {% endhighlight %}
 
 #### Heading 2
-<h2 class="e-heading-sub">Open Sans Semibold 600 24px</h2>
+<h2 class="e-heading--sub">Open Sans Semibold 600 24px</h2>
 
 {% highlight html %}
-
+<h2 class="e-heading--sub">Open Sans Semibold 600 24px</h2>
 {% endhighlight %}
 
 #### Heading 3
-<h3 class="e-heading-section">Open Sans Semibold 600 20px</h3>
+<h3 class="e-heading--section">Open Sans Semibold 600 20px</h3>
 
 {% highlight html %}
-
+<h3 class="e-heading--section">Open Sans Semibold 600 20px</h3>
 {% endhighlight %}
 
 #### Heading 4
-<h4 class="e-heading-descriptive">Open Sans Semibold 600 16px</h4>
+<h4 class="e-heading--descriptive">Open Sans Semibold 600 16px</h4>
 
 {% highlight html %}
-
+<h4 class="e-heading--descriptive">Open Sans Semibold 600 16px</h4>
 {% endhighlight %}
 
 #### Heading 5
-<h5 class="e-heading-overview">Open Sans Semibold 700 14px</h5>
+<h5 class="e-heading--overview">Open Sans Semibold 700 14px</h5>
 
 {% highlight html %}
-
+<h5 class="e-heading--overview">Open Sans Semibold 700 14px</h5>
 {% endhighlight %}
 
 #### Heading 6
-<h6 class="e-heading-headline">Open Sans Bold 700 14px</h6>
+<h6 class="e-heading--headline">Open Sans Bold 700 14px</h6>
 
 {% highlight html %}
-
+<h6 class="e-heading--headline">Open Sans Bold 700 14px</h6>
 {% endhighlight %}
 
 #### Paragraph
@@ -343,31 +343,31 @@ sub: Style Guide
 ### Brand Primary
 <div class="o-swatch">
   <div class="o-swatch__background o-swatch__background--primary-100">
-    <h6>Primary 100</h6>
+    <h6 class="e-heading--headline">Primary 100</h6>
     <code>#000066</code>
   </div>
 </div>
 <div class="o-swatch">
   <div class="o-swatch__background o-swatch__background--primary-80">
-    <h6>Primary 80</h6>
+    <h6 class="e-heading--headline">Primary 80</h6>
     <code>#333385</code>
   </div>
 </div>
 <div class="o-swatch">
   <div class="o-swatch__background o-swatch__background--primary-60">
-    <h6>Primary 60</h6>
+    <h6 class="e-heading--headline">Primary 60</h6>
     <code>#6666a3</code>
   </div>
 </div>
 <div class="o-swatch">
   <div class="o-swatch__background o-swatch__background--primary-40">
-    <h6>Primary 40</h6>
+    <h6 class="e-heading--headline">Primary 40</h6>
     <code>#9999c2</code>
   </div>
 </div>
 <div class="o-swatch">
   <div class="o-swatch__background o-swatch__background--primary-20">
-    <h6>Primary 20</h6>
+    <h6 class="e-heading--headline">Primary 20</h6>
     <code>#cccce0</code>
   </div>
 </div>
@@ -375,31 +375,31 @@ sub: Style Guide
 ### Brand Secondary
 <div class="o-swatch">
   <div class="o-swatch__background o-swatch__background--secondary-100">
-    <h6>Secondary 100</h6>
+    <h6 class="e-heading--headline">Secondary 100</h6>
     <code>#cc0000</code>
   </div>
 </div>
 <div class="o-swatch">
   <div class="o-swatch__background o-swatch__background--secondary-80">
-    <h6>Secondary 80</h6>
+    <h6 class="e-heading--headline">Secondary 80</h6>
     <code>#d63333</code>
   </div>
 </div>
 <div class="o-swatch">
   <div class="o-swatch__background o-swatch__background--secondary-60">
-    <h6>Secondary 60</h6>
+    <h6 class="e-heading--headline">Secondary 60</h6>
     <code>#e06666</code>
   </div>
 </div>
 <div class="o-swatch">
   <div class="o-swatch__background o-swatch__background--secondary-40">
-    <h6>Secondary 40</h6>
+    <h6 class="e-heading--headline">Secondary 40</h6>
     <code>#eb9999</code>
   </div>
 </div>
 <div class="o-swatch">
   <div class="o-swatch__background o-swatch__background--secondary-20">
-    <h6>Secondary 20</h6>
+    <h6 class="e-heading--headline">Secondary 20</h6>
     <code>#f5cccc</code>
   </div>
 </div>
@@ -407,36 +407,54 @@ sub: Style Guide
 ### Monotone
 <div class="o-swatch">
   <div class="o-swatch__background o-swatch__background--accent-100">
-    <h6>Monotone 100</h6>
+    <h6 class="e-heading--headline">Monotone 100</h6>
     <code>#191919</code>
   </div>
 </div>
 <div class="o-swatch">
   <div class="o-swatch__background o-swatch__background--accent-80">
-    <h6>Monotone 80</h6>
+    <h6 class="e-heading--headline">Monotone 80</h6>
     <code>#4c4c4c</code>
   </div>
 </div>
 <div class="o-swatch">
   <div class="o-swatch__background o-swatch__background--accent-60">
-    <h6>Monotone 60</h6>
+    <h6 class="e-heading--headline">Monotone 60</h6>
     <code>#7f7f7f</code>
   </div>
 </div>
 <div class="o-swatch">
   <div class="o-swatch__background o-swatch__background--accent-40">
-    <h6>Monotone 40</h6>
+    <h6 class="e-heading--headline">Monotone 40</h6>
     <code>#b2b2b2</code>
   </div>
 </div>
 <div class="o-swatch">
   <div class="o-swatch__background o-swatch__background--accent-20">
-    <h6>Monotone 20</h6>
+    <h6 class="e-heading--headline">Monotone 20</h6>
     <code>#e5e5e5</code>
   </div>
 </div>
 
 ### UI
+<div class="o-swatch">
+  <div class="o-swatch__background o-swatch__background--success">
+    <h6 class="e-heading--headline">Success</h6>
+    <code>#43b36c</code>
+  </div>
+</div>
+<div class="o-swatch">
+  <div class="o-swatch__background o-swatch__background--information">
+    <h6 class="e-heading--headline">Information</h6>
+    <code>#f68f23</code>
+  </div>
+</div>
+<div class="o-swatch">
+  <div class="o-swatch__background o-swatch__background--error">
+    <h6 class="e-heading--headline">Information</h6>
+    <code>#ea4747</code>
+  </div>
+</div>
 
 ## Buttons
 

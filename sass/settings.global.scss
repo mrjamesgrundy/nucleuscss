@@ -38,10 +38,13 @@ $heading--main: 2.5rem !default;
 $heading--sub: 1.7rem !default;
 $heading--section: 1.5rem !default;
 $heading--descriptive: 1.1rem !default;
-$heading--headline: 1rem !default;
-$heading--overview: .83rem !default;
+$heading--overview: 1rem !default;
+$heading--headline: .83rem !default;
 
 // Text
+$paragraph: 1rem !default;
+$code: 1rem !default;
+
 $text-font-size-xsmall: .53rem !default;
 $text-font-size-small: .73rem !default;
 $text-font-size-medium: .83rem !default;

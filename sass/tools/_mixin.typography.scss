@@ -23,3 +23,11 @@
 @mixin heading--headline {
   font-size: $heading--headline;
 }
+
+@mixin paragraph {
+  font-size: $paragraph;
+}
+
+@mixin code {
+  font-size: $code;
+}
