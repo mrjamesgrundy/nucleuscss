@@ -28,62 +28,90 @@
   @include paragraph;
 }
 
+.e-align--left {
+  @include align--left;
+}
+
+.e-align--center {
+  @include align--center;
+}
+
+.e-align--right {
+  @include align--right;
+}
+
+.e-align--justify {
+  @include align--justify;
+}
+
+.e-align--nowrap {
+  @include align--nowrap;
+}
+
+.u-typography--success {
+  @include text--success;
+}
+
+.u-typography--warning {
+  @include text--warning;
+}
+
+.u-typography--information {
+  @include text--information;
+}
+
+.u-typography--error {
+  @include text--error;
+}
+
+// .e-text {
+//   @include text;
+// }
+
+//  .e-text--mono {
+//    @include text--mono;
+// }
+
+// .e-text--highlight {
+//    @include text--highlight;
+// }
+
+// .e-text--quiet {
+//    @include text--quiet;
+// }
+
+// .e-text--loud {
+//   @include text--loud;
+// }
+
+// .e-text--help[title] {
+//    @include text--help;
+// }
+
+// .e-pre {
+//   margin: 0;
+// }
+
 .e-code {
   @include code;
 }
 
-.e-text {
-   @include text;
-}
+// .e-code--multiline {
+//   @include code--multiline;
+// }
 
- .e-text--mono {
-   @include text--mono;
-}
+// .e-kbd {
+//   @include keyboard-keys;
+// }
 
-.e-text--highlight {
-   @include text--highlight;
-}
+// .e-blockquote {
+//   @include quotation;
+// }
 
-.e-text--quiet {
-   @include text--quiet;
-}
+// .e-blockquote__body {
+//   @include quotation__body;
+// }
 
-.e-text--loud {
-  @include text--loud;
-}
-
-.e-text--help[title] {
-   @include text--help;
-}
-
-.e-pre {
-  margin: 0;
-}
-
-.e-code {
-  @include code;
-}
-
-.e-code--multiline {
-  @include code--multiline;
-}
-
-.e-kbd {
-  @include keyboard-keys;
-}
-
-.e-blockquote {
-  @include quotation;
-}
-
-.e-blockquote__body {
-  @include quotation__body;
-}
-
-.e-blockquote__footer {
-  @include quotation__footer;
-}
-
-.e-paragraph {
-  @include paragraph;
-}
+// .e-blockquote__footer {
+//   @include quotation__footer;
+// }

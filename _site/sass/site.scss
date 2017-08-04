@@ -99,11 +99,19 @@
     background-color: $u-success;
   }
 
+  .o-swatch__background--warning {
+    background-color: $u-warning;
+  }
+
   .o-swatch__background--information {
     background-color: $u-information;
   }
 
   .o-swatch__background--error {
     background-color: $u-error;
+  }
+
+  .o-swatch__background--links {
+    background-color: $u-links;
   }
 }

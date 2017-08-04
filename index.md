@@ -59,14 +59,14 @@ sub: Style Guide
 <p class="e-paragraph">Open Sans Regular 400 13px</p>
 
 {% highlight html %}
-
+<p class="e-paragraph">Open Sans Regular 400 13px</p>
 {% endhighlight %}
 
 #### Code
-<code class="c-code">Monospace Regular 14px</code>
+<code class="e-code">Monospace Regular 14px</code>
 
 {% highlight html %}
-<code class="c-code">Monospace Regular 14px</code>
+<code class="e-code">Monospace Regular 14px</code>
 {% endhighlight %}
 
 #### Blockquote
@@ -80,18 +80,18 @@ sub: Style Guide
 {% endhighlight %}
 
 ### Alignment
-<p class="c-paragraph u-typography--left">Text align content left</p>
-<p class="c-paragraph u-typography--center">Text align content center</p>
-<p class="c-paragraph u-typography--right">Text align content right</p>
-<p class="c-paragraph u-typography--justify">Justify content</p>
-<p class="c-paragraph u-typography--nowrap">Nowrap content</p>
+<p class="e-paragraph e-typography--left">Text align content left</p>
+<p class="e-paragraph e-typography--center">Text align content center</p>
+<p class="e-paragraph e-typography--right">Text align content right</p>
+<p class="e-paragraph e-typography--justify">Justify content</p>
+<p class="e-paragraph e-typography--nowrap">Nowrap content</p>
 
 {% highlight html %}
-<p class="c-paragraph u-typography--left">Text align content left</p>
-<p class="c-paragraph u-typography--center">Text align content center</p>
-<p class="c-paragraph u-typography--right">Text align content right</p>
-<p class="c-paragraph u-typography--justify">Justify content</p>
-<p class="c-paragraph u-typography--nowrap">Nowrap content</p>
+<p class="e-paragraph e-typography--left">Text align content left</p>
+<p class="e-paragraph e-typography--center">Text align content center</p>
+<p class="e-paragraph e-typography--right">Text align content right</p>
+<p class="e-paragraph e-typography--justify">Justify content</p>
+<p class="e-paragraph e-typography--nowrap">Nowrap content</p>
 {% endhighlight %}
 
 ### Abbreviations
@@ -258,18 +258,16 @@ sub: Style Guide
 {% endhighlight %}
 
 ### Styles
-<p class="c-paragraph"><span class="u-typography--primary">Primary</span></p>
-<p class="c-paragraph"><span class="u-typography--success">Success</span></p>
-<p class="c-paragraph"><span class="u-typography--info">Info</span></p>
-<p class="c-paragraph"><span class="u-typography--warning">Warning</span></p>
-<p class="c-paragraph"><span class="u-typography--error">Error</span></p>
-<p class="c-paragraph"><span class="u-typography--quiet">Quiet</span></p>
-<p class="c-paragraph"><span class="u-typography--secret">Secret</span></p>
-<p class="c-paragraph"><span class="u-typography--highlight">Highlight</span></p>
-<p class="c-paragraph"><code class="u-typography--code">code</code></p>
+<p class="e-paragraph"><span class="u-typography--success">Success</span></p>
+<p class="e-paragraph"><span class="u-typography--warning">Warning</span></p>
+<p class="e-paragraph"><span class="u-typography--information">Information</span></p>
+<p class="e-paragraph"><span class="u-typography--error">Error</span></p>
+<p class="e-paragraph"><span class="u-typography--quiet">Quiet</span></p>
+<p class="e-paragraph"><span class="u-typography--secret">Secret</span></p>
+<p class="e-paragraph"><span class="u-typography--highlight">Highlight</span></p>
+<p class="e-paragraph"><code class="u-typography--code">code</code></p>
 
 {% highlight html %}
-<p class="c-paragraph"><span class="u-typography--primary">Primary</span></p>
 <p class="c-paragraph"><span class="u-typography--success">Success</span></p>
 <p class="c-paragraph"><span class="u-typography--info">Info</span></p>
 <p class="c-paragraph"><span class="u-typography--warning">Warning</span></p>
@@ -444,15 +442,27 @@ sub: Style Guide
   </div>
 </div>
 <div class="o-swatch">
-  <div class="o-swatch__background o-swatch__background--information">
-    <h6 class="e-heading--headline">Information</h6>
+  <div class="o-swatch__background o-swatch__background--warning">
+    <h6 class="e-heading--headline">Warning</h6>
     <code>#f68f23</code>
   </div>
 </div>
 <div class="o-swatch">
-  <div class="o-swatch__background o-swatch__background--error">
+  <div class="o-swatch__background o-swatch__background--information">
     <h6 class="e-heading--headline">Information</h6>
+    <code>#0275d8</code>
+  </div>
+</div>
+<div class="o-swatch">
+  <div class="o-swatch__background o-swatch__background--error">
+    <h6 class="e-heading--headline">Error</h6>
     <code>#ea4747</code>
+  </div>
+</div>
+<div class="o-swatch">
+  <div class="o-swatch__background o-swatch__background--links">
+    <h6 class="e-heading--headline">Links</h6>
+    <code>#0a65be</code>
   </div>
 </div>
 

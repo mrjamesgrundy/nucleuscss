@@ -31,3 +31,39 @@
 @mixin code {
   font-size: $code;
 }
+
+@mixin align--left {
+  text-align: $text-align-left;
+}
+
+@mixin align--center {
+  text-align: $text-align-center;
+}
+
+@mixin align--right {
+  text-align: $text-align-right;
+}
+
+@mixin align--justify {
+  text-align: $text-align-justify;
+}
+
+@mixin align--nowrap {
+  text-align: $text-align-nowrap;
+}
+
+@mixin typography--success {
+  color: $u-success;
+}
+
+@mixin typography--warning {
+  color: $u-warning;
+}
+
+@mixin typography--information {
+  color: $u-information;
+}
+
+@mixin typography--error {
+  color: $u-error;
+}
