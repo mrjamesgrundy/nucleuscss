@@ -27,7 +27,7 @@
 // Color swatches
 .o-swatch {
   width: 200px;
-  height: 150px;
+  height: 60px;
 
   .o-swatch__background {
     color: $u-accent-0;
@@ -39,5 +39,57 @@
 
   .o-swatch__background--primary-80 {
     background-color: $u-primary-80;
+  }
+
+  .o-swatch__background--primary-60 {
+    background-color: $u-primary-60;
+  }
+
+  .o-swatch__background--primary-40 {
+    background-color: $u-primary-40;
+  }
+
+  .o-swatch__background--primary-20 {
+    background-color: $u-primary-20;
+  }
+
+  .o-swatch__background--secondary-100 {
+    background-color: $u-secondary-100;
+  }
+
+  .o-swatch__background--secondary-80 {
+    background-color: $u-secondary-80;
+  }
+
+  .o-swatch__background--secondary-60 {
+    background-color: $u-secondary-60;
+  }
+
+  .o-swatch__background--secondary-40 {
+    background-color: $u-secondary-40;
+  }
+
+  .o-swatch__background--secondary-20 {
+    background-color: $u-secondary-20;
+  }
+
+  .o-swatch__background--accent-100 {
+    background-color: $u-accent-100;
+  }
+
+  .o-swatch__background--accent-80 {
+    background-color: $u-accent-80;
+  }
+
+  .o-swatch__background--accent-60 {
+    background-color: $u-accent-60;
+  }
+
+  .o-swatch__background--accent-40 {
+    background-color: $u-accent-40;
+  }
+
+  .o-swatch__background--accent-20 {
+    background-color: $u-accent-20;
   }
 }
