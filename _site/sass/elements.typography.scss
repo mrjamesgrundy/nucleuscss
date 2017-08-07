@@ -136,9 +136,9 @@
   @include typography--monospace;
 }
 
-//.e-text--help[title] {
-//  @include text--help;
-//}
+.e-paragraph--help[title] {
+  @include paragraph--help;
+}
 
 // .e-pre {
 //   margin: 0;
