@@ -1,5 +1,7 @@
 @import "tools/mixin.typography";
 
+// Headings
+
 .e-heading--main {
   @include heading--main;
 }
@@ -28,65 +30,115 @@
   @include paragraph;
 }
 
-.e-align--left {
+// Alignment
+
+.u-typography--left {
   @include align--left;
 }
 
-.e-align--center {
+.u-typography--center {
   @include align--center;
 }
 
-.e-align--right {
+.u-typography--right {
   @include align--right;
 }
 
-.e-align--justify {
+.u-typography--justify {
   @include align--justify;
 }
 
-.e-align--nowrap {
+.u-typography--nowrap {
   @include align--nowrap;
 }
 
+// Weights
+
+.u-typography--bold {
+  @include typography--bold;
+}
+
+.u-typography--semi-bold {
+  @include typography--semi-bold;
+}
+
+.u-typography--regular {
+  @include typography--regular;
+}
+
+.u-typography--monospace {
+  @include typography--monospace;
+}
+
+// Styles
+
+.u-typography--primary {
+  @include typography--primary;
+}
+
 .u-typography--success {
-  @include text--success;
+  @include typography--success;
 }
 
 .u-typography--warning {
-  @include text--warning;
+  @include typography--warning;
 }
 
 .u-typography--information {
-  @include text--information;
+  @include typography--information;
 }
 
 .u-typography--error {
-  @include text--error;
+  @include typography--error;
+}
+
+.u-typography--quiet {
+  @include typography--quiet;
+}
+
+.u-typography--secret {
+  @include typography--secret;
+}
+
+.u-typography--highlight {
+  @include typography--highlight;
+}
+
+.u-typography--code {
+  @include typography--code;
+}
+
+// Lists
+
+.e-definition-list {
+
+  dt { font-weight: 600; }
+  dd {
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.e-ordered-list {
+
+}
+
+.e-unordered-list {
+
 }
 
 // .e-text {
 //   @include text;
 // }
 
-//  .e-text--mono {
-//    @include text--mono;
-// }
+.u-typography--monospace {
+  @include typography--monospace;
+}
 
-// .e-text--highlight {
-//    @include text--highlight;
-// }
-
-// .e-text--quiet {
-//    @include text--quiet;
-// }
-
-// .e-text--loud {
-//   @include text--loud;
-// }
-
-// .e-text--help[title] {
-//    @include text--help;
-// }
+//.e-text--help[title] {
+//  @include text--help;
+//}
 
 // .e-pre {
 //   margin: 0;

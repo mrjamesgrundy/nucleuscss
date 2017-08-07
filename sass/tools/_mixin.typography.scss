@@ -2,34 +2,59 @@
 
 @mixin heading--main {
   font-size: $heading--main;
+  font-weight: $text-font-weight-bold;
 }
 
 @mixin heading--sub {
   font-size: $heading--sub;
+  font-weight: $text-font-weight-bold;
 }
 
 @mixin heading--section {
   font-size: $heading--section;
+  font-weight: $text-font-weight-bold;
 }
 
 @mixin heading--descriptive {
   font-size: $heading--descriptive;
+  font-weight: $text-font-weight-bold;
 }
 
 @mixin heading--overview {
   font-size: $heading--overview;
+  font-weight: $text-font-weight-heavy;
 }
 
 @mixin heading--headline {
   font-size: $heading--headline;
+  font-weight: $text-font-weight-bold;
 }
 
 @mixin paragraph {
   font-size: $paragraph;
+  font-weight: $text-font-weight-normal;
 }
 
 @mixin code {
   font-size: $code;
+  font-weight: $text-font-weight-normal;
+}
+
+@mixin typography--bold {
+  font-weight: $text-font-weight-heavy;
+}
+
+@mixin typography--semi-bold {
+  font-weight: $text-font-weight-bold;
+}
+
+@mixin typography--regular {
+  font-weight: $text-font-weight-normal;
+}
+
+@mixin typography--monospace {
+  font-weight: $text-font-weight-normal;
+  font-family: $monospace;
 }
 
 @mixin align--left {
@@ -52,6 +77,10 @@
   text-align: $text-align-nowrap;
 }
 
+@mixin typography--primary {
+  color: $u-primary;
+}
+
 @mixin typography--success {
   color: $u-success;
 }
@@ -66,4 +95,26 @@
 
 @mixin typography--error {
   color: $u-error;
+}
+
+@mixin typography--quiet {
+  color: $u-quiet;
+}
+
+@mixin typography--secret {
+  color: $u-secret;
+}
+
+@mixin typography--highlight {
+  color: $u-primary;
+  background-color: #ecdd93;
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+
+@mixin typography--code {
+  color: #d11560;
+  background-color: #f9f2f4;
+  padding: 2px 4px;
+  border-radius: 3px;
 }

@@ -25,38 +25,46 @@ $u-accent-20: #e5e5e5;
 $u-accent-0: #ffffff;
 
 // UI
+$u-primary: #374047;
 $u-success: #43b36c;
 $u-warning: #f68f23;
 $u-information: #0275d8;
 $u-error: #ea4747;
 $u-links: #0a65be;
+$u-quiet: #868c90;
+$u-secret: #aeb2b5;
 
 /*
 * Typography
 */
 
 // Headings
-$heading--main: 2.5rem !default;
-$heading--sub: 1.7rem !default;
-$heading--section: 1.5rem !default;
-$heading--descriptive: 1.1rem !default;
-$heading--overview: 1rem !default;
-$heading--headline: .83rem !default;
+$heading--main: 2rem !default;
+$heading--sub: 1.5rem !default;
+$heading--section: 1.250rem !default;
+$heading--descriptive: 1rem !default;
+$heading--overview: .875rem !default;
+$heading--headline: .875rem !default;
 
 // Text
-$paragraph: .83rem !default;
-$code: 1rem !default;
+$paragraph: .813rem !default;
+$code: 1.077rem !default;
+$monospace: monospace !default;
 
+// Text size
 $text-font-size-xsmall: .53rem !default;
 $text-font-size-small: .73rem !default;
 $text-font-size-medium: .83rem !default;
 $text-font-size-large: .93rem !default;
 $text-font-size-xlarge: 1rem !default;
 
-$text-font-weight: normal !default;
-$text-font-weight-heavy: bold !default;
+// Weight
+$text-font-weight-normal: 400 !default;
+$text-font-weight-bold: 600 !default;
+$text-font-weight-heavy: 700 !default;
 $text-line-height: 1.53rem !default;
 
+// Alignment
 $text-align-left: left;
 $text-align-center: center;
 $text-align-right: right;

@@ -10,6 +10,13 @@ sub: Style Guide
 * [Buttons](#buttons "Buttons")
 
 ## Typography
+* [Hierarchy](#hierarchy "Hierarchy")
+* [Alignment](#alignment "Alignment")
+* [Abbreviations](#abbreviations "Abbreviations")
+* [Weights and Types](#weights-and-types "Weights and Types")
+* [Lists](#lists "Lists")
+* [Styles](#styles "Styles")
+* [Usage](#usage "Usage")
 
 ### Hierarchy
 
@@ -70,54 +77,57 @@ sub: Style Guide
 {% endhighlight %}
 
 #### Blockquote
-<blockquote class="c-blockquote">
-  <p class="c-blockquote__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-  <footer class="c-blockquote__footer">Source Name, <cite title="Source Title">Source Title</cite></footer>
+<blockquote class="e-blockquote">
+  <p class="e-blockquote__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+  <footer class="e-blockquote__footer">Source Name, <cite title="Source Title">Source Title</cite></footer>
 </blockquote>
 
 {% highlight html %}
-
+<blockquote class="e-blockquote">
+  <p class="e-blockquote__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+  <footer class="e-blockquote__footer">Source Name, <cite title="Source Title">Source Title</cite></footer>
+</blockquote>
 {% endhighlight %}
 
 ### Alignment
-<p class="e-paragraph e-typography--left">Text align content left</p>
-<p class="e-paragraph e-typography--center">Text align content center</p>
-<p class="e-paragraph e-typography--right">Text align content right</p>
-<p class="e-paragraph e-typography--justify">Justify content</p>
-<p class="e-paragraph e-typography--nowrap">Nowrap content</p>
+<p class="e-paragraph u-typography--left">Text align content left</p>
+<p class="e-paragraph u-typography--center">Text align content center</p>
+<p class="e-paragraph u-typography--right">Text align content right</p>
+<p class="e-paragraph u-typography--justify">Justify content</p>
+<p class="e-paragraph u-typography--nowrap">Nowrap content</p>
 
 {% highlight html %}
-<p class="e-paragraph e-typography--left">Text align content left</p>
-<p class="e-paragraph e-typography--center">Text align content center</p>
-<p class="e-paragraph e-typography--right">Text align content right</p>
-<p class="e-paragraph e-typography--justify">Justify content</p>
-<p class="e-paragraph e-typography--nowrap">Nowrap content</p>
+<p class="e-paragraph u-typography--left">Text align content left</p>
+<p class="e-paragraph u-typography--center">Text align content center</p>
+<p class="e-paragraph u-typography--right">Text align content right</p>
+<p class="e-paragraph u-typography--justify">Justify content</p>
+<p class="e-paragraph u-typography--nowrap">Nowrap content</p>
 {% endhighlight %}
 
 ### Abbreviations
-<p class="c-paragraph"><abbr class="c-paragraph--help" title="Help text">Help Text</abbr></p>
+<p class="e-paragraph"><abbr class="e-paragraph--help" title="Help text">Help Text</abbr></p>
 
 {% highlight html %}
-
+<p class="e-paragraph"><abbr class="e-paragraph--help" title="Help text">Help Text</abbr></p>
 {% endhighlight %}
 
 ### Weights and Types
-<p class="c-paragraph u-typography--bold">Open Sans Bold 700</p>
-<p class="c-paragraph u-typography--semi-bold">Open Sans Semi Bold 600</p>
-<p class="c-paragraph u-typography--regular">Open Sans Regular 400</p>
-<p class="c-paragraph u-typography--monospace">Monospace 400</p>
+<p class="e-paragraph u-typography--bold">Open Sans Bold 700</p>
+<p class="e-paragraph u-typography--semi-bold">Open Sans Semi Bold 600</p>
+<p class="e-paragraph u-typography--regular">Open Sans Regular 400</p>
+<p class="e-paragraph u-typography--monospace">Monospace 400</p>
 
 {% highlight html %}
-<p class="c-paragraph u-typography--bold">Open Sans Bold 700</p>
-<p class="c-paragraph u-typography--semi-bold">Open Sans Semi Bold 600</p>
-<p class="c-paragraph u-typography--regular">Open Sans Regular 400</p>
-<p class="c-paragraph u-typography--monospace">Monospace 400</p>
+<p class="e-paragraph u-typography--bold">Open Sans Bold 700</p>
+<p class="e-paragraph u-typography--semi-bold">Open Sans Semi Bold 600</p>
+<p class="e-paragraph u-typography--regular">Open Sans Regular 400</p>
+<p class="e-paragraph u-typography--monospace">Monospace 400</p>
 {% endhighlight %}
 
 ### Lists
 
 #### Definition List
-<dl class="c-definition-list">
+<dl class="e-definition-list">
   <dt>Definition list title 1</dt>
   <dd>Definition list description 1</dd>
   <dt>Definition list title 2</dt>
@@ -127,7 +137,7 @@ sub: Style Guide
 </dl>
 
 {% highlight html %}
-<dl class="c-definition-list">
+<dl class="e-definition-list">
   <dt>Definition list title 1</dt>
   <dd>Definition list description 1</dd>
   <dt>Definition list title 2</dt>
@@ -138,14 +148,14 @@ sub: Style Guide
 {% endhighlight %}
 
 #### Ordered List
-<ol class="c-ordered-list">
+<ol class="e-ordered-list">
   <li>List item 1</li>
   <li>List item 2</li>
   <li>List item 3
-    <ol class="c-ordered-list">
+    <ol class="e-ordered-list">
       <li>Nested list item 1</li>
       <li>Nested list item 2
-        <ol class="c-ordered-list">
+        <ol class="e-ordered-list">
           <li>Nested list item 1</li>
           <li>Nested list item 2</li>
         </ol>
@@ -155,14 +165,14 @@ sub: Style Guide
 </ol>
 
 {% highlight html %}
-<ol class="c-ordered-list">
+<ol class="e-ordered-list">
   <li>List item 1</li>
   <li>List item 2</li>
   <li>List item 3
-    <ol class="c-ordered-list">
+    <ol class="e-ordered-list">
       <li>Nested list item 1</li>
       <li>Nested list item 2
-        <ol class="c-ordered-list">
+        <ol class="e-ordered-list">
           <li>Nested list item 1</li>
           <li>Nested list item 2</li>
         </ol>
@@ -173,7 +183,7 @@ sub: Style Guide
 {% endhighlight %}
 
 #### Unordered List
-<ul class="c-unordered-list">
+<ul class="e-unordered-list">
   <li>List item 1</li>
   <li>List item 2</li>
   <li>List item 3
@@ -190,7 +200,7 @@ sub: Style Guide
 </ul>
 
 {% highlight html %}
-<ul class="c-unordered-list">
+<ul class="e-unordered-list">
   <li>List item 1</li>
   <li>List item 2</li>
   <li>List item 3
@@ -208,7 +218,7 @@ sub: Style Guide
 {% endhighlight %}
 
 #### Unstyled List
-<ul class="c-unordered-list c-unordered-list--unstyled">
+<ul class="e-unordered-list e-unordered-list--unstyled">
   <li>List item 1</li>
   <li>List item 2</li>
   <li>List item 3
@@ -225,7 +235,7 @@ sub: Style Guide
 </ul>
 
 {% highlight html %}
-<ul class="c-unordered-list c-unordered-list--unstyled">
+<ul class="e-unordered-list e-unordered-list--unstyled">
   <li>List item 1</li>
   <li>List item 2</li>
   <li>List item 3
@@ -243,14 +253,14 @@ sub: Style Guide
 {% endhighlight %}
 
 #### Inline List
-<ul class="c-unordered-list c-unordered-list--inline">
+<ul class="e-unordered-list e-unordered-list--inline">
   <li>List item 1</li>
   <li>List item 2</li>
   <li>List item 3</li>
 </ul>
 
 {% highlight html %}
-<ul class="c-unordered-list c-unordered-list--inline">
+<ul class="e-unordered-list e-unordered-list--inline">
   <li>List item 1</li>
   <li>List item 2</li>
   <li>List item 3</li>
@@ -258,6 +268,7 @@ sub: Style Guide
 {% endhighlight %}
 
 ### Styles
+<p class="e-paragraph"><span class="u-typography--primary">Primary</span></p>
 <p class="e-paragraph"><span class="u-typography--success">Success</span></p>
 <p class="e-paragraph"><span class="u-typography--warning">Warning</span></p>
 <p class="e-paragraph"><span class="u-typography--information">Information</span></p>
@@ -268,27 +279,28 @@ sub: Style Guide
 <p class="e-paragraph"><code class="u-typography--code">code</code></p>
 
 {% highlight html %}
-<p class="c-paragraph"><span class="u-typography--success">Success</span></p>
-<p class="c-paragraph"><span class="u-typography--info">Info</span></p>
-<p class="c-paragraph"><span class="u-typography--warning">Warning</span></p>
-<p class="c-paragraph"><span class="u-typography--error">Error</span></p>
-<p class="c-paragraph"><span class="u-typography--quiet">Quiet</span></p>
-<p class="c-paragraph"><span class="u-typography--secret">Secret</span></p>
-<p class="c-paragraph"><span class="u-typography--highlight">Highlight</span></p>
-<p class="c-paragraph"><code class="u-typography--code">code</code></p>
+<p class="e-paragraph"><span class="u-typography--primary">Primary</span></p>
+<p class="e-paragraph"><span class="u-typography--success">Success</span></p>
+<p class="e-paragraph"><span class="u-typography--info">Info</span></p>
+<p class="e-paragraph"><span class="u-typography--warning">Warning</span></p>
+<p class="e-paragraph"><span class="u-typography--error">Error</span></p>
+<p class="e-paragraph"><span class="u-typography--quiet">Quiet</span></p>
+<p class="e-paragraph"><span class="u-typography--secret">Secret</span></p>
+<p class="e-paragraph"><span class="u-typography--highlight">Highlight</span></p>
+<p class="e-paragraph"><code class="u-typography--code">code</code></p>
 {% endhighlight %}
 
 ### Usage
-<h1 class="c-heading-main">Main Headline</h1>
-<h2 class="c-heading-sub u-typography--quiet">Sub Headline</h2>
-<h6 class="c-heading-headline u-typography--info">Date / Time</h6>
+<h1 class="e-heading--main">Main Headline</h1>
+<h2 class="e-heading--sub u-typography--quiet">Sub Headline</h2>
+<h6 class="e-heading--headline u-typography--information">Date / Time</h6>
 
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 
-<h3 class="c-heading-section">Section Headline</h3>
+<h3 class="e-heading--section">Section Headline</h3>
 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
 
-<h4 class="c-heading-descriptive">Descriptive Headline</h4>
+<h4 class="e-heading--descriptive">Descriptive Headline</h4>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 
 <ul class="c-unordered-list">
@@ -307,7 +319,7 @@ sub: Style Guide
   </li>
 </ul>
 
-<h5 class="c-heading-overview u-typography--secret">Overview Headline</h5>
+<h5 class="e-heading--overview u-typography--secret">Overview Headline</h5>
 <p class="u-typography--secret">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 
 <ol class="c-ordered-list u-typography--secret">
@@ -326,8 +338,8 @@ sub: Style Guide
   </li>
 </ol>
 
-<h6 class="c-heading-headline u-typography--info">Section Headline</h6>
-<dl>
+<h6 class="e--heading-headline u-typography--info">Section Headline</h6>
+<dl class="e-definition-list">
   <dt>Definition list title 1</dt>
   <dd><a href="#" title="Definition list description 1">Definition list description 1</a></dd>
   <dt>Definition list title 2</dt>
@@ -337,6 +349,10 @@ sub: Style Guide
 </dl>
 
 ## Colors
+* [Brand Primary](#brand-primary "Brand Primary")
+* [Brand Secondary](#brand-secondary "Brand Secondary")
+* [Monotone](#monotone "Monotone")
+* [UI](#ui "UI")
 
 ### Brand Primary
 <div class="o-swatch">
