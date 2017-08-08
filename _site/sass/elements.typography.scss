@@ -172,7 +172,7 @@ blockquote.e-blockquote {
   quotes: "'" "'";
   display: block;
   padding: 10px 25px;
-  border-left: $border-radius solid $u-accent-100;
+  border-left: $border-width solid $u-accent-100;
 
   p.e-blockquote__paragraph {
     @include paragraph;

@@ -361,104 +361,145 @@ sub: Style Guide
 ### Brand Primary
 The brand color scheme is our main palette across the site and should be strictly adhered to.
 
-<div class="o-swatch">
-  <div class="o-swatch__background o-swatch__background--primary-100">
-    <h6 class="e-heading--headline">Primary 100</h6>
-    <code>#000066</code>
+<div class="o-grid">
+  <div class="o-grid__col">
+    <div class="o-swatch">
+      <div class="o-swatch__background o-swatch__background--primary-100">
+        <h6 class="e-heading--headline">Primary 100</h6>
+        <code>#000066</code>
+      </div>
+    </div>
+  </div>
+  <div class="o-grid__col">
+    <div class="o-swatch">
+      <div class="o-swatch__background o-swatch__background--primary-80">
+        <h6 class="e-heading--headline">Primary 80</h6>
+        <code>#333385</code>
+      </div>
+    </div>
+  </div>
+  <div class="o-grid__col">
+    <div class="o-swatch">
+      <div class="o-swatch__background o-swatch__background--primary-60">
+        <h6 class="e-heading--headline">Primary 60</h6>
+        <code>#6666a3</code>
+      </div>
+    </div>
+  </div>
+  <div class="o-grid__col">
+    <div class="o-swatch">
+      <div class="o-swatch__background o-swatch__background--primary-40">
+        <h6 class="e-heading--headline">Primary 40</h6>
+        <code>#9999c2</code>
+      </div>
+    </div>
+  </div>
+
+  <div class="o-grid__col">
+    <div class="o-swatch">
+      <div class="o-swatch__background o-swatch__background--primary-20">
+        <h6 class="e-heading--headline">Primary 20</h6>
+        <code>#cccce0</code>
+      </div>
+    </div>
   </div>
 </div>
-<div class="o-swatch">
-  <div class="o-swatch__background o-swatch__background--primary-80">
-    <h6 class="e-heading--headline">Primary 80</h6>
-    <code>#333385</code>
-  </div>
-</div>
-<div class="o-swatch">
-  <div class="o-swatch__background o-swatch__background--primary-60">
-    <h6 class="e-heading--headline">Primary 60</h6>
-    <code>#6666a3</code>
-  </div>
-</div>
-<div class="o-swatch">
-  <div class="o-swatch__background o-swatch__background--primary-40">
-    <h6 class="e-heading--headline">Primary 40</h6>
-    <code>#9999c2</code>
-  </div>
-</div>
-<div class="o-swatch">
-  <div class="o-swatch__background o-swatch__background--primary-20">
-    <h6 class="e-heading--headline">Primary 20</h6>
-    <code>#cccce0</code>
-  </div>
-</div>
+
 
 ### Brand Secondary
 The secondary palette should only be used on elements that relate to the primary brand.
 
-<div class="o-swatch">
-  <div class="o-swatch__background o-swatch__background--secondary-100">
-    <h6 class="e-heading--headline">Secondary 100</h6>
-    <code>#cc0000</code>
+<div class="o-grid">
+  <div class="o-grid__col">
+    <div class="o-swatch">
+      <div class="o-swatch__background o-swatch__background--secondary-100">
+        <h6 class="e-heading--headline">Secondary 100</h6>
+        <code>#cc0000</code>
+      </div>
+    </div>
+  </div>
+  <div class="o-grid__col">
+    <div class="o-swatch">
+      <div class="o-swatch__background o-swatch__background--secondary-80">
+        <h6 class="e-heading--headline">Secondary 80</h6>
+        <code>#d63333</code>
+      </div>
+    </div>
+  </div>
+  <div class="o-grid__col">
+    <div class="o-swatch">
+      <div class="o-swatch__background o-swatch__background--secondary-60">
+        <h6 class="e-heading--headline">Secondary 60</h6>
+        <code>#e06666</code>
+      </div>
+    </div>
+  </div>
+  <div class="o-grid__col">
+    <div class="o-swatch">
+      <div class="o-swatch__background o-swatch__background--secondary-40">
+        <h6 class="e-heading--headline">Secondary 40</h6>
+        <code>#eb9999</code>
+      </div>
+    </div>
+  </div>
+  <div class="o-grid__col">
+    <div class="o-swatch">
+      <div class="o-swatch__background o-swatch__background--secondary-20">
+        <h6 class="e-heading--headline">Secondary 20</h6>
+        <code>#f5cccc</code>
+      </div>
+    </div>
   </div>
 </div>
-<div class="o-swatch">
-  <div class="o-swatch__background o-swatch__background--secondary-80">
-    <h6 class="e-heading--headline">Secondary 80</h6>
-    <code>#d63333</code>
-  </div>
-</div>
-<div class="o-swatch">
-  <div class="o-swatch__background o-swatch__background--secondary-60">
-    <h6 class="e-heading--headline">Secondary 60</h6>
-    <code>#e06666</code>
-  </div>
-</div>
-<div class="o-swatch">
-  <div class="o-swatch__background o-swatch__background--secondary-40">
-    <h6 class="e-heading--headline">Secondary 40</h6>
-    <code>#eb9999</code>
-  </div>
-</div>
-<div class="o-swatch">
-  <div class="o-swatch__background o-swatch__background--secondary-20">
-    <h6 class="e-heading--headline">Secondary 20</h6>
-    <code>#f5cccc</code>
-  </div>
-</div>
+
 
 ### Monotone
 The monotone palette is used purely for a secondary color scheme when contrast is required within the UI.
 
-<div class="o-swatch">
-  <div class="o-swatch__background o-swatch__background--accent-100">
-    <h6 class="e-heading--headline">Monotone 100</h6>
-    <code>#191919</code>
+<div class="o-grid">
+  <div class="o-grid__col">
+    <div class="o-swatch">
+      <div class="o-swatch__background o-swatch__background--accent-100">
+        <h6 class="e-heading--headline">Monotone 100</h6>
+        <code>#191919</code>
+      </div>
+    </div>
+  </div>
+  <div class="o-grid__col">
+    <div class="o-swatch">
+      <div class="o-swatch__background o-swatch__background--accent-80">
+        <h6 class="e-heading--headline">Monotone 80</h6>
+        <code>#4c4c4c</code>
+      </div>
+    </div>
+  </div>
+  <div class="o-grid__col">
+    <div class="o-swatch">
+      <div class="o-swatch__background o-swatch__background--accent-60">
+        <h6 class="e-heading--headline">Monotone 60</h6>
+        <code>#7f7f7f</code>
+      </div>
+    </div>
+  </div>
+  <div class="o-grid__col">
+    <div class="o-swatch">
+      <div class="o-swatch__background o-swatch__background--accent-40">
+        <h6 class="e-heading--headline">Monotone 40</h6>
+        <code>#b2b2b2</code>
+      </div>
+    </div>
+  </div>
+
+  <div class="o-grid__col">
+    <div class="o-swatch">
+      <div class="o-swatch__background o-swatch__background--accent-20">
+        <h6 class="e-heading--headline">Monotone 20</h6>
+        <code>#e5e5e5</code>
+      </div>
+    </div>
   </div>
 </div>
-<div class="o-swatch">
-  <div class="o-swatch__background o-swatch__background--accent-80">
-    <h6 class="e-heading--headline">Monotone 80</h6>
-    <code>#4c4c4c</code>
-  </div>
-</div>
-<div class="o-swatch">
-  <div class="o-swatch__background o-swatch__background--accent-60">
-    <h6 class="e-heading--headline">Monotone 60</h6>
-    <code>#7f7f7f</code>
-  </div>
-</div>
-<div class="o-swatch">
-  <div class="o-swatch__background o-swatch__background--accent-40">
-    <h6 class="e-heading--headline">Monotone 40</h6>
-    <code>#b2b2b2</code>
-  </div>
-</div>
-<div class="o-swatch">
-  <div class="o-swatch__background o-swatch__background--accent-20">
-    <h6 class="e-heading--headline">Monotone 20</h6>
-    <code>#e5e5e5</code>
-  </div>
-</div>
+
 
 ### UI
 The UI palette should only be applied to state changes within the user interface. This will aid the user to understand when an action is required.
@@ -572,7 +613,7 @@ These colors should only be used in conjunction with the grid within a developme
 ## Grid
 Color key:
 <div class="o-grid-key o-grid-key--grid">— grids are pink</div>
-<div class="o-grid-key o-grid-key--grid-col">— cols are green</div>
+<div class="o-grid-key o-grid-key--grid-col">— cols are blue</div>
 <div class="o-grid-key o-grid-key--padding">— padding is blue</div>
 
 ### Base
