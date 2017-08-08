@@ -1,7 +1,6 @@
 @import "tools/mixin.typography";
 
 // Headings
-
 .e-heading--main {
   @include heading--main;
 }
@@ -31,7 +30,6 @@
 }
 
 // Alignment
-
 .u-typography--left {
   @include align--left;
 }
@@ -53,7 +51,6 @@
 }
 
 // Weights
-
 .u-typography--bold {
   @include typography--bold;
 }
@@ -71,11 +68,6 @@
 }
 
 // Styles
-
-.u-typography--primary {
-  @include typography--primary;
-}
-
 .u-typography--success {
   @include typography--success;
 }
@@ -109,12 +101,13 @@
 }
 
 // Lists
-
 .e-definition-list {
+  dt {
+    @include typography--semi-bold;
+  }
 
-  dt { font-weight: 600; }
   dd {
-    font-weight: 400;
+    @include typography--regular;
     margin: 0;
     padding: 0;
   }
@@ -128,21 +121,14 @@
 
 }
 
-// .e-text {
-//   @include text;
-// }
 
 .u-typography--monospace {
   @include typography--monospace;
 }
 
 .e-paragraph--help[title] {
-  @include paragraph--help;
+  // @include paragraph--help;
 }
-
-// .e-pre {
-//   margin: 0;
-// }
 
 .e-code {
   @include code;

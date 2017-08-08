@@ -268,7 +268,6 @@ sub: Style Guide
 {% endhighlight %}
 
 ### Styles
-<p class="e-paragraph"><span class="u-typography--primary">Primary</span></p>
 <p class="e-paragraph"><span class="u-typography--success">Success</span></p>
 <p class="e-paragraph"><span class="u-typography--warning">Warning</span></p>
 <p class="e-paragraph"><span class="u-typography--information">Information</span></p>
@@ -279,7 +278,6 @@ sub: Style Guide
 <p class="e-paragraph"><code class="u-typography--code">code</code></p>
 
 {% highlight html %}
-<p class="e-paragraph"><span class="u-typography--primary">Primary</span></p>
 <p class="e-paragraph"><span class="u-typography--success">Success</span></p>
 <p class="e-paragraph"><span class="u-typography--info">Info</span></p>
 <p class="e-paragraph"><span class="u-typography--warning">Warning</span></p>

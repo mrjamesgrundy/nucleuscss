@@ -1,59 +1,66 @@
 @import "settings.global";
 
+@mixin font-size($sizeValue: 16, $line: $sizeValue * 1.5) {
+    font-size: ($sizeValue) + px;
+    line-height: ($line) + px;
+    font-size: ($sizeValue / 16) + rem;
+    line-height: ($line / 16) + rem;
+}
+
 @mixin heading--main {
-  font-size: $heading--main;
-  font-weight: $text-font-weight-bold;
+  font-weight: $text-font-weight-semibold;
+  @include font-size(32);
 }
 
 @mixin heading--sub {
-  font-size: $heading--sub;
-  font-weight: $text-font-weight-bold;
+  font-weight: $text-font-weight-semibold;
+  @include font-size(24);
 }
 
 @mixin heading--section {
-  font-size: $heading--section;
-  font-weight: $text-font-weight-bold;
+  font-weight: $text-font-weight-semibold;
+  @include font-size(20);
 }
 
 @mixin heading--descriptive {
-  font-size: $heading--descriptive;
-  font-weight: $text-font-weight-bold;
+  font-weight: $text-font-weight-semibold;
+  @include font-size(16);
 }
 
 @mixin heading--overview {
-  font-size: $heading--overview;
-  font-weight: $text-font-weight-heavy;
+  font-weight: $text-font-weight-bold;
+  @include font-size(14);
 }
 
 @mixin heading--headline {
-  font-size: $heading--headline;
-  font-weight: $text-font-weight-bold;
+  font-weight: $text-font-weight-semibold;
+  @include font-size(14);
 }
 
 @mixin paragraph {
-  font-size: $paragraph;
-  font-weight: $text-font-weight-normal;
+  font-weight: $text-font-weight-regular;
+  @include font-size(13);
 }
 
 @mixin code {
-  font-size: $code;
-  font-weight: $text-font-weight-normal;
+  font-weight: $text-font-weight-regular;
+  @include font-size(14);
 }
 
 @mixin typography--bold {
-  font-weight: $text-font-weight-heavy;
-}
-
-@mixin typography--semi-bold {
   font-weight: $text-font-weight-bold;
 }
 
+@mixin typography--semi-bold {
+  font-weight: $text-font-weight-semibold;
+}
+
 @mixin typography--regular {
-  font-weight: $text-font-weight-normal;
+  font-weight: $text-font-weight-regular;
 }
 
 @mixin typography--monospace {
-  font-weight: $text-font-weight-normal;
+  font-weight: $text-font-weight-regular;
   font-family: $monospace;
 }
 
@@ -75,10 +82,6 @@
 
 @mixin align--nowrap {
   text-align: $text-align-nowrap;
-}
-
-@mixin typography--primary {
-  color: $u-primary;
 }
 
 @mixin typography--success {
@@ -105,21 +108,19 @@
   color: $u-secret;
 }
 
-@mixin paragraph--help {
-  border-bottom: 1px dotted;
-  cursor: help;
-}
+// @mixin paragraph--help {
+//   border-bottom: 1px dotted;
+//   cursor: help;
+// }
 
 @mixin typography--highlight {
-  color: $u-primary;
-  background-color: #ecdd93;
-  padding: 5px 10px;
-  border-radius: 3px;
+  color: $u-primary-100;
+  background-color: $u-highlight;
+  border-radius: $border-radius;
 }
 
 @mixin typography--code {
-  color: #d11560;
-  background-color: #f9f2f4;
-  padding: 2px 4px;
-  border-radius: 3px;
+  color: $u-code;
+  background-color: $u-code-background;
+  border-radius: $border-radius;
 }
