@@ -1,3 +1,61 @@
-.o-grid {
+@import "tools/mixin.mediaqueries";
+@import "tools/mixin.grid";
 
+.o-grid {
+  @include grid;
+
+  &--wrap {
+    @include grid--wrap;
+  }
+
+  &--top {
+    @include grid--top;
+  }
+
+  &--center {
+    @include grid--center;
+  }
+
+  &--bottom {
+    @include grid--bottom;
+  }
+
+  &--no-gutter {
+    > .o-grid__col {
+      @include grid__col--no-gutter;
+    }
+  }
+
+  &__col {
+    @include grid__col;
+    @include grid__cols;
+
+    &--top {
+      @include grid__col--top;
+    }
+
+    &--center {
+      @include grid__col--center;
+    }
+
+    &--bottom {
+      @include grid__col--bottom;
+    }
+
+    &--no-gutter {
+      @include grid__col--no-gutter;
+    }
+
+    &--width-fixed {
+      @include grid__col--width-fixed;
+    }
+
+    &--hidden {
+      @include grid__col--hidden;
+    }
+
+    &--visible {
+      @include grid__col--visible;
+    }
+  }
 }

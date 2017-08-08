@@ -8,6 +8,9 @@ sub: Style Guide
 * [Typography](#typography "Typography")
 * [Colors](#colors "Colors")
 * [Buttons](#buttons "Buttons")
+* [Grid](#grid "Grid")
+
+---
 
 ## Typography
 * [Hierarchy](#hierarchy "Hierarchy")
@@ -346,13 +349,18 @@ sub: Style Guide
   <dd><a href="#" title="Definition list description 3">Definition list description 3</a></dd>
 </dl>
 
+---
+
 ## Colors
 * [Brand Primary](#brand-primary "Brand Primary")
 * [Brand Secondary](#brand-secondary "Brand Secondary")
 * [Monotone](#monotone "Monotone")
 * [UI](#ui "UI")
+* [Grid](#grid "Grid")
 
 ### Brand Primary
+The brand color scheme is our main palette across the site and should be strictly adhered to.
+
 <div class="o-swatch">
   <div class="o-swatch__background o-swatch__background--primary-100">
     <h6 class="e-heading--headline">Primary 100</h6>
@@ -385,6 +393,8 @@ sub: Style Guide
 </div>
 
 ### Brand Secondary
+The secondary palette should only be used on elements that relate to the brand.
+
 <div class="o-swatch">
   <div class="o-swatch__background o-swatch__background--secondary-100">
     <h6 class="e-heading--headline">Secondary 100</h6>
@@ -417,6 +427,8 @@ sub: Style Guide
 </div>
 
 ### Monotone
+The monotone palette is used purely for a secondary color scheme when contrast is required within the UI.
+
 <div class="o-swatch">
   <div class="o-swatch__background o-swatch__background--accent-100">
     <h6 class="e-heading--headline">Monotone 100</h6>
@@ -449,6 +461,8 @@ sub: Style Guide
 </div>
 
 ### UI
+The UI palette should only be applied to state changes within the user interface. This will aid the user to understand when an action is required.
+
 <div class="o-swatch">
   <div class="o-swatch__background o-swatch__background--success">
     <h6 class="e-heading--headline">Success</h6>
@@ -473,9 +487,13 @@ sub: Style Guide
     <code>#ea4747</code>
   </div>
 </div>
+
+### Text
+Text colors can be applied to content to change their appearance and improve the hierarchy.
+
 <div class="o-swatch">
-  <div class="o-swatch__background o-swatch__background--links">
-    <h6 class="e-heading--headline">Links</h6>
+  <div class="o-swatch__background o-swatch__background--link">
+    <h6 class="e-heading--headline">Link</h6>
     <code>#0a65be</code>
   </div>
 </div>
@@ -489,6 +507,51 @@ sub: Style Guide
   <div class="o-swatch__background o-swatch__background--secret">
     <h6 class="e-heading--headline">Secret</h6>
     <code>#aeb2b5</code>
+  </div>
+</div>
+
+<div class="o-swatch">
+  <div class="o-swatch__background o-swatch__background--quiet">
+    <h6 class="e-heading--headline">Quiet</h6>
+    <code>#868c90</code>
+  </div>
+</div>
+
+<div class="o-swatch">
+  <div class="o-swatch__background o-swatch__background--secret">
+    <h6 class="e-heading--headline">Secret</h6>
+    <code>#868c90</code>
+  </div>
+</div>
+
+<div class="o-swatch">
+  <div class="o-swatch__background o-swatch__background--code">
+    <h6 class="e-heading--code">Code</h6>
+    <code>#f9f2f4</code>
+  </div>
+</div>
+
+### Grid
+These colors should only be used in conjunction with the grid within a development environment.
+
+<div class="o-swatch">
+  <div class="o-swatch__background o-swatch__background--grid">
+    <h6 class="e-heading--headline">Grid</h6>
+    <code>#ff69b4</code>
+  </div>
+</div>
+
+<div class="o-swatch">
+  <div class="o-swatch__background o-swatch__background--grid-col">
+    <h6 class="e-heading--headline">Grid Col</h6>
+    <code>#b2f5b5</code>
+  </div>
+</div>
+
+<div class="o-swatch">
+  <div class="o-swatch__background o-swatch__background--grid-col-border">
+    <h6 class="e-heading--headline">Grid Col Border</h6>
+    <code>#00bfff</code>
   </div>
 </div>
 
@@ -509,4 +572,225 @@ sub: Style Guide
 <input class="c-button c-button--medium" type="button" value="Input button">
 <input class="c-button c-button--medium" type="submit" value="Input submit button">
 <label class="c-button c-button--medium">Browse Button<input class="is-hidden" type="file"></label>
+{% endhighlight %}
+
+---
+
+## Grid
+Color key:
+<div class="o-grid-key o-grid-key--grid">— grids are pink</div>
+<div class="o-grid-key o-grid-key--grid-col">— cols are blue</div>
+<div class="o-grid-key o-grid-key--padding">— padding is green</div>
+
+### Base
+Use the ```.o-grid``` class to wrap your ```.o-grid__col``` elements.
+
+<div class="o-grid o-grid--demo">
+	<div class="o-grid__col"><div class="o-grid-text">first</div></div>
+	<div class="o-grid__col"><div class="o-grid-text">second</div></div>
+	<div class="o-grid__col"><div class="o-grid-text">third</div></div>
+</div>
+
+{% highlight html %}
+<div class="o-grid">
+  <div class="o-grid__col">first</div>
+  <div class="o-grid__col">second</div>
+  <div class="o-grid__col">third</div>
+</div>
+{% endhighlight %}
+
+### Widths
+Use the ```.o-grid__col--width-xx``` class to apply widths to your cols. If you add a width to one col the other cols will automatically take up the rest of the space equally.
+
+<div class="o-grid o-grid--demo">
+	<div class="o-grid__col o-grid__col--width-50"><div class="o-grid-text">first</div></div>
+	<div class="o-grid__col"><div class="o-grid-text">second</div></div>
+	<div class="o-grid__col"><div class="o-grid-text">third</div></div>
+</div>
+
+{% highlight html %}
+<div class="o-grid">
+  <div class="o-grid__col o-grid__col--width-50">first</div>
+  <div class="o-grid__col">second</div>
+  <div class="o-grid__col">third</div>
+</div>
+{% endhighlight %}
+
+### Guttering
+Remove all guttering from columns:
+
+<div class="o-grid o-grid--no-gutter o-grid--demo">
+	<div class="o-grid__col"><div class="o-grid-text">first</div></div>
+	<div class="o-grid__col"><div class="o-grid-text">second</div></div>
+	<div class="o-grid__col"><div class="o-grid-text">third</div></div>
+</div>
+
+{% highlight html %}
+<div class="o-grid o-grid--no-gutter">
+  <div class="o-grid__col">firs</div>
+  <div class="o-grid__col">second</div>
+  <div class="o-grid__col">third</div>
+</div>
+{% endhighlight %}
+
+Remove guttering from one or more columns:
+<div class="o-grid o-grid--demo">
+  <div class="o-grid__col"><div class="o-grid-text">first</div></div>
+  <div class="o-grid__col"><div class="o-grid-text">second</div></div>
+  <div class="o-grid__col o-grid__col--no-gutter"><div class="o-grid-text">third</div></div>
+</div>
+
+{% highlight html %}
+<div class="o-grid">
+  <div class="o-grid__col">first</div>
+  <div class="o-grid__col">second</div>
+  <div class="o-grid__col o-grid__col--no-gutter">third</div>
+</div>
+{% endhighlight %}
+
+### Nesting
+You can nest grids inside cols with relative ease...with nesting you're into advanced territory!
+
+<div class="o-grid o-grid--demo">
+	<div class="o-grid__col">
+		<div class="o-grid">
+			<div class="o-grid__col"><div class="o-grid-text">first</div></div>
+			<div class="o-grid__col"><div class="o-grid-text">second</div></div>
+		</div>
+		<div class="o-grid">
+			<div class="o-grid__col"><div class="o-grid-text">third</div></div>
+			<div class="o-grid__col"><div class="o-grid-text">fourth</div></div>
+		</div>
+	</div>
+	<div class="o-grid__col"><div class="o-grid-text">fifth</div></div>
+</div>
+
+{% highlight html %}
+<div class="o-grid o-grid--demo">
+  <div class="o-grid__col">
+    <div class="o-grid">
+      <div class="o-grid__col"><div class="o-grid-text">first</div></div>
+      <div class="o-grid__col"><div class="o-grid-text">second</div></div>
+    </div>
+    <div class="o-grid">
+      <div class="o-grid__col"><div class="o-grid-text">third</div></div>
+      <div class="o-grid__col"><div class="o-grid-text">fourth</div></div>
+    </div>
+    </div>
+  <div class="o-grid__col"><div class="o-grid-text">fifth</div></div>
+</div>
+{% endhighlight %}
+
+### Offsets
+To "push" a col horizontally across the grid use the ```.o-grid__col--offset-xx``` class. Use in conjunction with widths to perfectly align your cols.
+
+<div class="o-grid o-grid--demo">
+	<div class="o-grid__col o-grid__col--width-20"><div class="o-grid-text">first</div></div>
+	<div class="o-grid__col o-grid__col--width-20 o-grid__col--offset-60"><div class="o-grid-text">second</div></div>
+</div>
+
+{% highlight html %}
+<div class="o-grid o-grid--demo">
+  <div class="o-grid__col o-grid__col--width-20">first</div>
+  <div class="o-grid__col o-grid__col--width-20 o-grid__col--offset-60">second</div>
+</div>
+{% endhighlight %}
+
+### Wrapping
+A grid is essentially a row of columns. However columns can wrap onto the next line within the grid.
+
+Wrap the columns within the grid by adding the .o-grid--wrap modifier class to eliminate this braking the grid by being too wide for the grid container.
+
+<div class="o-grid o-grid--wrap o-grid--demo">
+  <div class="o-grid__col o-grid__col--width-50"><div class="o-grid-text">first</div></div>
+  <div class="o-grid__col o-grid__col--width-66"><div class="o-grid-text">second</div></div>
+</div>
+
+{% highlight html %}
+<div class="o-grid o-grid--wrap o-grid--demo">
+  <div class="o-grid__col o-grid__col--width-50">first</div>
+  <div class="o-grid__col o-grid__col--width-66">second</div>
+</div>
+{% endhighlight %}
+
+### Vertical Alignment
+<div class="o-grid o-grid--bottom o-grid--demo">
+	<div class="o-grid__col o-grid__col--top"><div class="o-grid-text">first</div></div>
+	<div class="o-grid__col o-grid__col--center"><div class="o-grid-text">second</div></div>
+	<div class="o-grid__col"><div class="o-grid-text">third</div></div>
+	<div class="o-grid__col"><div class="o-grid-text">fourth
+		<br>fourth
+		<br>fourth
+		<br>fourth
+		<br>fourth
+		<br>
+	</div></div>
+</div>
+
+{% highlight html %}
+<div class="o-grid o-grid--bottom">
+  <div class="o-grid__col o-grid__col--top">first</div>
+  <div class="o-grid__col o-grid__col--center">second</div>
+  <div class="o-grid__col"><div class="o-grid-text">third</div>
+  <div class="o-grid__col">
+    fourth
+    <br>fourth
+    <br>fourth
+    <br>fourth
+    <br>fourth
+    <br>
+  </div></div>
+</div>
+{% endhighlight %}
+
+### Responsive
+The grid can be instructed to go full width at certain break points to maximise the screen space and help produce great user experiences on all sorts of devices.
+The grid has a fit or full class modifier that is used at different screen sizes.
+```.o-grid--{ small | medium | large }-{ fit | full }```
+
+<div class="o-grid o-grid--small-full o-grid--medium-fit o-grid--large-full o-grid--demo">
+	<div class="o-grid__col"><div class="o-grid-text">first</div></div>
+	<div class="o-grid__col"><div class="o-grid-text">second</div></div>
+	<div class="o-grid__col"><div class="o-grid-text">third</div></div>
+</div>
+
+{% highlight html %}
+<div class="o-grid o-grid--small-full o-grid--medium-fit o-grid--large-full o-grid--demo">
+  <div class="o-grid__col"><div class="o-grid-text">first</div></div>
+  <div class="o-grid__col"><div class="o-grid-text">second</div></div>
+  <div class="o-grid__col"><div class="o-grid-text">third</div></div>
+</div>
+{% endhighlight %}
+
+### Responsive Suffixes
+As well as grid level responsiveness you also have control over the cols within a grid.
+Individual cols can change width at specific break points by using responsive suffixes.
+
+<div class="o-grid o-grid--wrap o-grid--demo">
+  <div class="o-grid__col o-grid__col--width-100 o-grid__col--width-33@small">first</div>
+  <div class="o-grid__col o-grid__col--width-100 o-grid__col--width-33@medium">second</div>
+  <div class="o-grid__col o-grid__col--width-100 o-grid__col--width-33@large">third</div>
+</div>
+
+{% highlight html %}
+<div class="o-grid o-grid--wrap o-grid--demo">
+  <div class="o-grid__col o-grid__col--width-100 o-grid__col--width-33@small">first</div>
+  <div class="o-grid__col o-grid__col--width-100 o-grid__col--width-33@medium">second</div>
+  <div class="o-grid__col o-grid__col--width-100 o-grid__col--width-33@large">third</div>
+</div>
+{% endhighlight %}
+
+### Fixed
+<div class="o-grid o-grid--demo">
+	<div class="o-grid__col"><div class="o-grid-text">first</div></div>
+	<div class="o-grid__col o-grid__col--width-fixed" style="width: 250px"><div class="o-grid-text">static width of 250px</div></div>
+	<div class="o-grid__col"><div class="o-grid-text">third</div></div>
+</div>
+
+{% highlight html %}
+<div class="o-grid o-grid--demo">
+  <div class="o-grid__col">first</div>
+  <div class="o-grid__col o-grid__col--width-fixed">static width of 250px</div>
+  <div class="o-grid__col">third</div>
+</div>
 {% endhighlight %}

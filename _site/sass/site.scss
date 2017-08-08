@@ -5,22 +5,25 @@
 
 // Doc structure
 .o-docs {
+  margin: 0;
+  padding: 0;
   color: $u-accent-100;
 
   .o-docs__header {
     background-color: $u-accent-20;
+    overflow: hidden;
 
     .e-heading {
       text-align: center;
     }
   }
 
-  .o-app__content {
-    font-size: $text-font-size-medium;
+  .o-docs__content {
+
   }
 
   .o-docs__footer {
-
+    overflow: hidden;
   }
 }
 
@@ -33,6 +36,7 @@
     color: $u-accent-0;
   }
 
+  // Brand Primary
   .o-swatch__background--primary-100 {
     background-color: $u-primary-100;
   }
@@ -53,6 +57,7 @@
     background-color: $u-primary-20;
   }
 
+  // Brand Secondary
   .o-swatch__background--secondary-100 {
     background-color: $u-secondary-100;
   }
@@ -73,6 +78,7 @@
     background-color: $u-secondary-20;
   }
 
+  // Monotone
   .o-swatch__background--accent-100 {
     background-color: $u-accent-100;
   }
@@ -93,6 +99,7 @@
     background-color: $u-accent-20;
   }
 
+  // UI
   .o-swatch__background--success {
     background-color: $u-success;
   }
@@ -109,8 +116,9 @@
     background-color: $u-error;
   }
 
-  .o-swatch__background--links {
-    background-color: $u-links;
+  // Text
+  .o-swatch__background--link {
+    background-color: $u-link;
   }
 
   .o-swatch__background--quiet {
@@ -120,4 +128,62 @@
   .o-swatch__background--secret {
     background-color: $u-secret;
   }
+
+  .o-swatch__background--highlight {
+    background-color: $u-highlight;
+  }
+
+<<<<<<< HEAD
+  .o-swatch__background--quiet {
+    background-color: $u-quiet;
+  }
+
+  .o-swatch__background--secret {
+    background-color: $u-secret;
+  }
+=======
+  .o-swatch__background--code {
+    background-color: $u-code;
+  }
+
+  // Grid
+  .o-swatch__background--grid {
+    background-color: $u-grid;
+  }
+
+  .o-swatch__background--grid-col {
+    background-color: $u-grid-col;
+  }
+
+  .o-swatch__background--grid-col-border {
+    background-color: $u-grid-col-border;
+  }
+}
+
+
+// Grid
+.o-grid-key--grid {
+  color: $u-grid-key;
+}
+
+.o-grid-key--grid-col {
+  color: $u-grid-col-key;
+}
+
+.o-grid-key--padding {
+  color: $u-grid-padding-key;
+}
+
+.o-grid-text {
+  background-color: $u-accent-0;
+}
+
+.o-grid--demo.o-grid {
+  border: 2px solid $u-grid;
+}
+
+.o-grid--demo .o-grid__col {
+  background-color: $u-grid-col;
+  border: 2px solid $u-grid-col-border;
+>>>>>>> f04794189986a9b5379844f4eeec8c80b8a5a576
 }

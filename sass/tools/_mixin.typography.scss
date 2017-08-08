@@ -61,7 +61,7 @@
 
 @mixin typography--monospace {
   font-weight: $text-font-weight-regular;
-  font-family: $monospace;
+  // font-family: $monospace;
 }
 
 @mixin align--left {
@@ -115,7 +115,7 @@
 }
 
 @mixin typography--code {
-  color: $u-code;
-  background-color: $u-code-background;
+  color: $u-primary-100;
+  background-color: $u-code;
   border-radius: $border-radius;
 }
