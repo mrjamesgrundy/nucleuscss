@@ -511,16 +511,9 @@ Text colors can be applied to content to change their appearance and improve hie
 </div>
 
 <div class="o-swatch">
-  <div class="o-swatch__background o-swatch__background--quiet">
-    <h6 class="e-heading--headline">Quiet</h6>
-    <code>#868c90</code>
-  </div>
-</div>
-
-<div class="o-swatch">
-  <div class="o-swatch__background o-swatch__background--secret">
-    <h6 class="e-heading--headline">Secret</h6>
-    <code>#868c90</code>
+  <div class="o-swatch__background o-swatch__background--highlight">
+    <h6 class="e-heading--headline">Highlight</h6>
+    <code>#ecdd93</code>
   </div>
 </div>
 

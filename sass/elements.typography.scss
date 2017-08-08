@@ -1,6 +1,5 @@
 @import "tools/mixin.typography";
 
-
 // Headings
 .e-heading--main {
   @include heading--main;
@@ -26,10 +25,10 @@
   @include heading--headline;
 }
 
+// Paragraph
 .e-paragraph {
   @include paragraph;
 }
-
 
 // Alignment
 .u-typography--left {
@@ -51,7 +50,6 @@
 .u-typography--nowrap {
   @include align--nowrap;
 }
-
 
 // Weights
 .u-typography--bold {
@@ -114,7 +112,6 @@
   cursor: help;
 }
 
-
 // Code
 code.e-code,
 kbd.e-code,
@@ -123,7 +120,6 @@ samp.e-code {
   font-family: monospace, monospace;
   @include code;
 }
-
 
 // Lists
 dl.e-definition-list {
@@ -171,13 +167,12 @@ ul.e-unordered-list {
   }
 }
 
-
 // Blockquote
 blockquote.e-blockquote {
   quotes: "'" "'";
   display: block;
   padding: 10px 25px;
-  border-left: 3px solid $u-accent-100;
+  border-left: $border-radius solid $u-accent-100;
 
   p.e-blockquote__paragraph {
     @include paragraph;
@@ -211,5 +206,4 @@ blockquote.e-blockquote {
       content: '\2014 \00A0';
     }
   }
-
 }
