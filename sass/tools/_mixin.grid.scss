@@ -1,0 +1,104 @@
+@import "settings.global";
+
+@mixin grid {
+  display: flex;
+}
+
+@mixin grid--wrap {
+  flex-wrap: wrap;
+}
+
+@mixin grid--top {
+  align-items: flex-start;
+}
+
+@mixin grid--center {
+  align-items: center;
+}
+
+@mixin grid--bottom {
+  align-items: flex-end;
+}
+
+@mixin grid__col {
+  flex: 1;
+  padding-left: $grid-gutter;
+  padding-right: $grid-gutter;
+}
+
+@mixin grid__col--no-gutter {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+@mixin grid__col--top {
+  align-self: flex-start;
+}
+
+@mixin grid__col--center {
+  align-self: center;
+}
+
+@mixin grid__col--bottom {
+  align-self: flex-end;
+}
+
+@mixin grid__col--width-fixed {
+  flex: 0 1 auto;
+}
+
+@mixin grid__col--fit {
+  flex: 1;
+}
+
+@mixin grid--full {
+  flex-wrap: wrap;
+}
+
+@mixin grid__col--full {
+  flex: 0 0 100%;
+  max-width: 100%;
+  margin-left: 0;
+}
+
+@mixin grid__col--hidden {
+  display: none;
+}
+
+@mixin grid__col--visible {
+  display: initial;
+}
+
+@mixin grid__col--width($width) {
+  flex: 0 0 $width;
+  max-width: $width;
+}
+
+@mixin grid__cols {
+  @each $width, $fraction in $grid-widths {
+    &--width-#{$width} {
+      @include grid__col--width($fraction * 100%);
+    }
+    &--offset-#{$width} {
+      margin-left: $fraction * 100%;
+    }
+  }
+}
+
+@mixin grid__responsive-cols($screen-width) {
+  @each $width, $fraction in $grid-widths {
+    &--hidden\@#{$screen-width} {
+      display: none;
+    }
+    &--visible\@#{$screen-width} {
+      display: initial;
+    }
+    &--width-#{$width}\@#{$screen-width} {
+      flex: 0 0 $fraction * 100%;
+      max-width: $fraction * 100%;
+    }
+    &--offset-#{$width}\@#{$screen-width} {
+      margin-left: $fraction * 100%;
+    }
+  }
+}
