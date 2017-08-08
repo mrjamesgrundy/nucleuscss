@@ -393,7 +393,7 @@ The brand color scheme is our main palette across the site and should be strictl
 </div>
 
 ### Brand Secondary
-The secondary palette should only be used on elements that relate to the brand.
+The secondary palette should only be used on elements that relate to the primary brand.
 
 <div class="o-swatch">
   <div class="o-swatch__background o-swatch__background--secondary-100">
@@ -489,7 +489,7 @@ The UI palette should only be applied to state changes within the user interface
 </div>
 
 ### Text
-Text colors can be applied to content to change their appearance and improve the hierarchy.
+Text colors can be applied to content to change their appearance and improve hierarchy.
 
 <div class="o-swatch">
   <div class="o-swatch__background o-swatch__background--link">
