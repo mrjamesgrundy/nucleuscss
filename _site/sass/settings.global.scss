@@ -33,7 +33,7 @@ $u-links: #0a65be;
 $u-quiet: #868c90;
 $u-secret: #aeb2b5;
 $u-highlight: #ecdd93;
-$u-code: #aeb2b5;
+$u-code: #ff009c;
 $u-code-background: #aeb2b5;
 
 
@@ -64,14 +64,14 @@ $text-font-weight-semibold: 600 !default;
 $text-font-weight-bold: 700 !default;
 
 // Alignment
-$text-align-left: left;
-$text-align-center: center;
-$text-align-right: right;
-$text-align-justify: justify;
-$text-align-nowrap: nowrap;
+$text-align-left: left !default;
+$text-align-center: center !default;
+$text-align-right: right !default;
+$text-align-justify: justify !default;
+$text-align-nowrap: nowrap !default;
 
 // Typeface
-// $monospace: monospace !default;
+$monospace: monospace !default;
 
 
 /*

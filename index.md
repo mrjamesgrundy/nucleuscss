@@ -187,10 +187,10 @@ sub: Style Guide
   <li>List item 1</li>
   <li>List item 2</li>
   <li>List item 3
-    <ul>
+    <ul class="e-unordered-list">
       <li>Nested list item 1</li>
       <li>Nested list item 2
-        <ul>
+        <ul class="e-unordered-list">
           <li>Nested list item 1</li>
           <li>Nested list item 2</li>
         </ul>
@@ -204,10 +204,10 @@ sub: Style Guide
   <li>List item 1</li>
   <li>List item 2</li>
   <li>List item 3
-    <ul>
+    <ul class="e-unordered-list">
       <li>Nested list item 1</li>
       <li>Nested list item 2
-        <ul>
+        <ul class="e-unordered-list">
           <li>Nested list item 1</li>
           <li>Nested list item 2</li>
         </ul>
@@ -301,14 +301,14 @@ sub: Style Guide
 <h4 class="e-heading--descriptive">Descriptive Headline</h4>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 
-<ul class="c-unordered-list">
+<ul class="e-unordered-list">
   <li>List item 1</li>
   <li>List item 2</li>
   <li>List item 3
-    <ul>
+    <ul class="e-unordered-list">
       <li>Nested list item 1</li>
       <li>Nested list item 2
-        <ul>
+        <ul class="e-unordered-list">
           <li>Nested list item 1</li>
           <li>Nested list item 2</li>
         </ul>
@@ -320,14 +320,14 @@ sub: Style Guide
 <h5 class="e-heading--overview u-typography--secret">Overview Headline</h5>
 <p class="u-typography--secret">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 
-<ol class="c-ordered-list u-typography--secret">
+<ol class="e-ordered-list u-typography--secret">
   <li>List item 1</li>
   <li>List item 2</li>
   <li>List item 3
-    <ol class="c-ordered-list">
+    <ol class="e-ordered-list">
       <li>Nested list item 1</li>
       <li>Nested list item 2
-        <ol class="c-ordered-list">
+        <ol class="e-ordered-list">
           <li>Nested list item 1</li>
           <li>Nested list item 2</li>
         </ol>
@@ -336,7 +336,7 @@ sub: Style Guide
   </li>
 </ol>
 
-<h6 class="e--heading-headline u-typography--info">Section Headline</h6>
+<h6 class="e-heading--headline u-typography--information">Section Headline</h6>
 <dl class="e-definition-list">
   <dt>Definition list title 1</dt>
   <dd><a href="#" title="Definition list description 1">Definition list description 1</a></dd>
@@ -477,6 +477,18 @@ sub: Style Guide
   <div class="o-swatch__background o-swatch__background--links">
     <h6 class="e-heading--headline">Links</h6>
     <code>#0a65be</code>
+  </div>
+</div>
+<div class="o-swatch">
+  <div class="o-swatch__background o-swatch__background--quiet">
+    <h6 class="e-heading--headline">Quiet</h6>
+    <code>#868c90</code>
+  </div>
+</div>
+<div class="o-swatch">
+  <div class="o-swatch__background o-swatch__background--secret">
+    <h6 class="e-heading--headline">Secret</h6>
+    <code>#aeb2b5</code>
   </div>
 </div>
 

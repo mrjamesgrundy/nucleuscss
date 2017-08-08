@@ -1,5 +1,6 @@
 @import "tools/mixin.typography";
 
+
 // Headings
 .e-heading--main {
   @include heading--main;
@@ -29,6 +30,7 @@
   @include paragraph;
 }
 
+
 // Alignment
 .u-typography--left {
   @include align--left;
@@ -49,6 +51,7 @@
 .u-typography--nowrap {
   @include align--nowrap;
 }
+
 
 // Weights
 .u-typography--bold {
@@ -94,14 +97,36 @@
 
 .u-typography--highlight {
   @include typography--highlight;
+  padding: 5px 10px;
 }
 
 .u-typography--code {
   @include typography--code;
+  padding: 2px 4px;
 }
 
+.u-typography--monospace {
+  @include typography--monospace;
+}
+
+.e-paragraph--help[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+
+// Code
+code.e-code,
+kbd.e-code,
+pre.e-code,
+samp.e-code {
+  font-family: monospace, monospace;
+  @include code;
+}
+
+
 // Lists
-.e-definition-list {
+dl.e-definition-list {
   dt {
     @include typography--semi-bold;
   }
@@ -109,47 +134,82 @@
   dd {
     @include typography--regular;
     margin: 0;
-    padding: 0;
   }
 }
 
-.e-ordered-list {
+ol.e-ordered-list {
+  counter-reset: a;
+  list-style-type: none;
 
+  li:before {
+    @include typography--semi-bold;
+    counter-increment: a;
+    content: counters(a, ".") " "
+  }
 }
 
-.e-unordered-list {
+ul.e-unordered-list {
+  list-style: disc outside;
 
+  &.e-unordered-list--unstyled {
+    list-style: none;
+    margin-left: 0;
+
+    > li ul {
+      list-style-type: none;
+    }
+  }
+
+  &.e-unordered-list--inline {
+    list-style: none;
+    margin-left: -5px;
+
+    > li {
+      display: inline-block;
+      padding: 0 5px;
+    }
+  }
 }
 
 
-.u-typography--monospace {
-  @include typography--monospace;
+// Blockquote
+blockquote.e-blockquote {
+  quotes: "'" "'";
+  display: block;
+  padding: 10px 25px;
+  border-left: 3px solid $u-accent-100;
+
+  p.e-blockquote__paragraph {
+    @include paragraph;
+    text-indent: -0.42em;
+    margin-bottom: 0;
+    color: initial;
+
+    &:before {
+      content: "'";
+      content: open-quote;
+    }
+
+    &:after {
+      content: "";
+      content: no-close-quote;
+    }
+
+    &:last-of-type:after {
+      content: "'";
+      content: close-quote;
+    }
+
+  }
+
+  footer.e-blockquote__footer {
+    position: initial;
+    text-align: left;
+    font-size: .68rem;
+
+    &:before {
+      content: '\2014 \00A0';
+    }
+  }
+
 }
-
-.e-paragraph--help[title] {
-  // @include paragraph--help;
-}
-
-.e-code {
-  @include code;
-}
-
-// .e-code--multiline {
-//   @include code--multiline;
-// }
-
-// .e-kbd {
-//   @include keyboard-keys;
-// }
-
-// .e-blockquote {
-//   @include quotation;
-// }
-
-// .e-blockquote__body {
-//   @include quotation__body;
-// }
-
-// .e-blockquote__footer {
-//   @include quotation__footer;
-// }
