@@ -572,8 +572,8 @@ These colors should only be used in conjunction with the grid within a developme
 ## Grid
 Color key:
 <div class="o-grid-key o-grid-key--grid">— grids are pink</div>
-<div class="o-grid-key o-grid-key--grid-col">— cols are blue</div>
-<div class="o-grid-key o-grid-key--padding">— padding is green</div>
+<div class="o-grid-key o-grid-key--grid-col">— cols are green</div>
+<div class="o-grid-key o-grid-key--padding">— padding is blue</div>
 
 ### Base
 Use the ```.o-grid``` class to wrap your ```.o-grid__col``` elements.
@@ -749,9 +749,9 @@ The grid has a fit or full class modifier that is used at different screen sizes
 
 {% highlight html %}
 <div class="o-grid o-grid--small-full o-grid--medium-fit o-grid--large-full o-grid--demo">
-  <div class="o-grid__col"><div class="o-grid-text">first</div></div>
-  <div class="o-grid__col"><div class="o-grid-text">second</div></div>
-  <div class="o-grid__col"><div class="o-grid-text">third</div></div>
+  <div class="o-grid__col">first</div>
+  <div class="o-grid__col">second</div>
+  <div class="o-grid__col">third</div>
 </div>
 {% endhighlight %}
 
@@ -760,9 +760,9 @@ As well as grid level responsiveness you also have control over the cols within 
 Individual cols can change width at specific break points by using responsive suffixes.
 
 <div class="o-grid o-grid--wrap o-grid--demo">
-  <div class="o-grid__col o-grid__col--width-100 o-grid__col--width-33@small">first</div>
-  <div class="o-grid__col o-grid__col--width-100 o-grid__col--width-33@medium">second</div>
-  <div class="o-grid__col o-grid__col--width-100 o-grid__col--width-33@large">third</div>
+  <div class="o-grid__col o-grid__col--width-100 o-grid__col--width-33@small"><div class="o-grid-text">first</div></div>
+  <div class="o-grid__col o-grid__col--width-100 o-grid__col--width-33@medium"><div class="o-grid-text">second</div></div>
+  <div class="o-grid__col o-grid__col--width-100 o-grid__col--width-33@large"><div class="o-grid-text">third</div></div>
 </div>
 
 {% highlight html %}
@@ -774,6 +774,8 @@ Individual cols can change width at specific break points by using responsive su
 {% endhighlight %}
 
 ### Fixed
+Usually cells in a grid will be fluid and responsive. If however you want to set a cell to a fixed width add the .o-grid__cell--width-fixed modifier and give it a specific width.
+
 <div class="o-grid o-grid--demo">
 	<div class="o-grid__col"><div class="o-grid-text">first</div></div>
 	<div class="o-grid__col o-grid__col--width-fixed" style="width: 250px"><div class="o-grid-text">static width of 250px</div></div>

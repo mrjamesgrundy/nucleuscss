@@ -555,8 +555,8 @@
 <h2 id="grid-1">Grid</h2>
 <p>Color key:</p>
 <div class="o-grid-key o-grid-key--grid">— grids are pink</div>
-<div class="o-grid-key o-grid-key--grid-col">— cols are blue</div>
-<div class="o-grid-key o-grid-key--padding">— padding is green</div>
+<div class="o-grid-key o-grid-key--grid-col">— cols are green</div>
+<div class="o-grid-key o-grid-key--padding">— padding is blue</div>
 
 <h3 id="base-1">Base</h3>
 <p>Use the <code class="highlighter-rouge">.o-grid</code> class to wrap your <code class="highlighter-rouge">.o-grid__col</code> elements.</p>
@@ -715,9 +715,9 @@ The grid has a fit or full class modifier that is used at different screen sizes
 </div>
 
 <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"o-grid o-grid--small-full o-grid--medium-fit o-grid--large-full o-grid--demo"</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"o-grid__col"</span><span class="nt">&gt;&lt;div</span> <span class="na">class=</span><span class="s">"o-grid-text"</span><span class="nt">&gt;</span>first<span class="nt">&lt;/div&gt;&lt;/div&gt;</span>
-  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"o-grid__col"</span><span class="nt">&gt;&lt;div</span> <span class="na">class=</span><span class="s">"o-grid-text"</span><span class="nt">&gt;</span>second<span class="nt">&lt;/div&gt;&lt;/div&gt;</span>
-  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"o-grid__col"</span><span class="nt">&gt;&lt;div</span> <span class="na">class=</span><span class="s">"o-grid-text"</span><span class="nt">&gt;</span>third<span class="nt">&lt;/div&gt;&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"o-grid__col"</span><span class="nt">&gt;</span>first<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"o-grid__col"</span><span class="nt">&gt;</span>second<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"o-grid__col"</span><span class="nt">&gt;</span>third<span class="nt">&lt;/div&gt;</span>
 <span class="nt">&lt;/div&gt;</span></code></pre></figure>
 
 <h3 id="responsive-suffixes">Responsive Suffixes</h3>
@@ -725,9 +725,9 @@ The grid has a fit or full class modifier that is used at different screen sizes
 Individual cols can change width at specific break points by using responsive suffixes.</p>
 
 <div class="o-grid o-grid--wrap o-grid--demo">
-  <div class="o-grid__col o-grid__col--width-100 o-grid__col--width-33@small">first</div>
-  <div class="o-grid__col o-grid__col--width-100 o-grid__col--width-33@medium">second</div>
-  <div class="o-grid__col o-grid__col--width-100 o-grid__col--width-33@large">third</div>
+  <div class="o-grid__col o-grid__col--width-100 o-grid__col--width-33@small"><div class="o-grid-text">first</div></div>
+  <div class="o-grid__col o-grid__col--width-100 o-grid__col--width-33@medium"><div class="o-grid-text">second</div></div>
+  <div class="o-grid__col o-grid__col--width-100 o-grid__col--width-33@large"><div class="o-grid-text">third</div></div>
 </div>
 
 <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"o-grid o-grid--wrap o-grid--demo"</span><span class="nt">&gt;</span>
@@ -737,6 +737,8 @@ Individual cols can change width at specific break points by using responsive su
 <span class="nt">&lt;/div&gt;</span></code></pre></figure>
 
 <h3 id="fixed">Fixed</h3>
+<p>Usually cells in a grid will be fluid and responsive. If however you want to set a cell to a fixed width add the .o-grid__cell–width-fixed modifier and give it a specific width.</p>
+
 <div class="o-grid o-grid--demo">
 	<div class="o-grid__col"><div class="o-grid-text">first</div></div>
 	<div class="o-grid__col o-grid__col--width-fixed" style="width: 250px"><div class="o-grid-text">static width of 250px</div></div>
