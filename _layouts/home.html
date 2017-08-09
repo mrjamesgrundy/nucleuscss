@@ -8,9 +8,17 @@
     <h2 class="e-heading e-heading--sub">{{ page.sub }}</h2>
   </header>
 
-  <section class="o-docs__content">
-    {{ content }}
-  </section>
+  <div class="o-docs__content o-container o-container--xlarge o-grid o-grid--wrap o-grid--top o-grid--small-full o-grid--medium-full">
+    <aside class="o-grid__col o-grid__col--width-20">
+      {% include side-nav.html %}
+    </aside>
+
+    <main class="o-grid__col o-grid__col--width-80">
+      <section>
+        {{ content }}
+      </section>
+    </main>
+  </div>
 
   <footer class="o-docs__footer">
     {% include footer.html %}

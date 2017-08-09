@@ -1,8 +1,12 @@
 @import 'settings.global';
 
+@import 'tools/mixin.box-sizing';
+@import "tools/mixin.container";
 @import "tools/mixin.grid";
 @import "tools/mixin.mediaqueries";
 @import "tools/mixin.typography";
+
+@import 'generic.box-sizing';
 
 @import "elements.form";
 @import 'elements.typography';

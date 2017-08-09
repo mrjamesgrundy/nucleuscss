@@ -6,7 +6,7 @@
 // Doc structure
 .o-docs {
   margin: 0;
-  padding: 0;
+  overflow-x: hidden;
   color: $u-accent-100;
 
   .o-docs__header {
@@ -170,12 +170,12 @@
 }
 
 .o-grid--demo.o-grid {
-  border: 2px solid $u-grid;
+  outline: 2px solid $u-grid;
 }
 
 .o-grid--demo .o-grid__col {
   background-color: $u-grid-col-border;
-  border: 2px solid $u-grid-col;
+  outline: 2px solid $u-grid-col;
 }
 
 // Code Highlight

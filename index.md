@@ -638,10 +638,9 @@ These colors should only be used in conjunction with the grid within a developme
 ---
 
 ## Grid
-Color key:
-<div class="o-grid-key o-grid-key--grid">— grids are pink</div>
-<div class="o-grid-key o-grid-key--grid-col">— cols are blue</div>
-<div class="o-grid-key o-grid-key--padding">— padding is blue</div>
+<div class="o-grid-key o-grid-key--grid">Grid</div>
+<div class="o-grid-key o-grid-key--grid-col">Cols</div>
+<div class="o-grid-key o-grid-key--padding">Padding</div>
 
 ### Base
 Use the ```.o-grid``` class to wrap your ```.o-grid__col``` elements.

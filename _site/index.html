@@ -36,8 +36,15 @@
     <h2 class="e-heading e-heading--sub">Style Guide</h2>
   </header>
 
-  <section class="o-docs__content">
-    <h5 id="on-this-page">On this page</h5>
+  <div class="o-docs__content o-container o-container--xlarge o-grid o-grid--wrap o-grid--top o-grid--small-full o-grid--medium-full">
+    <aside class="o-grid__col o-grid__col--width-20">
+      Side Nav
+
+    </aside>
+
+    <main class="o-grid__col o-grid__col--width-80">
+      <section>
+        <h5 id="on-this-page">On this page</h5>
 <ul>
   <li><a href="#typography" title="Typography">Typography</a></li>
   <li><a href="#colors" title="Colors">Colors</a></li>
@@ -634,10 +641,9 @@
 <hr />
 
 <h2 id="grid-1">Grid</h2>
-<p>Color key:</p>
-<div class="o-grid-key o-grid-key--grid">— grids are pink</div>
-<div class="o-grid-key o-grid-key--grid-col">— cols are blue</div>
-<div class="o-grid-key o-grid-key--padding">— padding is blue</div>
+<div class="o-grid-key o-grid-key--grid">Grid</div>
+<div class="o-grid-key o-grid-key--grid-col">Cols</div>
+<div class="o-grid-key o-grid-key--padding">Padding</div>
 
 <h3 id="base-1">Base</h3>
 <p>Use the <code class="highlighter-rouge">.o-grid</code> class to wrap your <code class="highlighter-rouge">.o-grid__col</code> elements.</p>
@@ -833,7 +839,9 @@ Individual cols can change width at specific break points by using responsive su
 <span class="nt">&lt;/div&gt;</span></code></pre></figure>
 
 
-  </section>
+      </section>
+    </main>
+  </div>
 
   <footer class="o-docs__footer">
     nucleuscss
