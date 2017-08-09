@@ -361,7 +361,7 @@ sub: Style Guide
 ### Brand Primary
 The brand color scheme is our main palette across the site and should be strictly adhered to.
 
-<div class="o-grid">
+<div class="o-grid o-grid--no-gutter">
   <div class="o-grid__col">
     <div class="o-swatch">
       <div class="o-swatch__background o-swatch__background--primary-100">
@@ -394,7 +394,6 @@ The brand color scheme is our main palette across the site and should be strictl
       </div>
     </div>
   </div>
-
   <div class="o-grid__col">
     <div class="o-swatch">
       <div class="o-swatch__background o-swatch__background--primary-20">
@@ -409,7 +408,7 @@ The brand color scheme is our main palette across the site and should be strictl
 ### Brand Secondary
 The secondary palette should only be used on elements that relate to the primary brand.
 
-<div class="o-grid">
+<div class="o-grid o-grid--no-gutter">
   <div class="o-grid__col">
     <div class="o-swatch">
       <div class="o-swatch__background o-swatch__background--secondary-100">
@@ -456,7 +455,7 @@ The secondary palette should only be used on elements that relate to the primary
 ### Monotone
 The monotone palette is used purely for a secondary color scheme when contrast is required within the UI.
 
-<div class="o-grid">
+<div class="o-grid o-grid--no-gutter">
   <div class="o-grid__col">
     <div class="o-swatch">
       <div class="o-swatch__background o-swatch__background--accent-100">
@@ -504,88 +503,116 @@ The monotone palette is used purely for a secondary color scheme when contrast i
 ### UI
 The UI palette should only be applied to state changes within the user interface. This will aid the user to understand when an action is required.
 
-<div class="o-swatch">
-  <div class="o-swatch__background o-swatch__background--success">
-    <h6 class="e-heading--headline">Success</h6>
-    <code>#43b36c</code>
+<div class="o-grid o-grid--no-gutter">
+  <div class="o-grid__col">
+    <div class="o-swatch">
+      <div class="o-swatch__background o-swatch__background--success">
+        <h6 class="e-heading--headline">Success</h6>
+        <code>#43b36c</code>
+      </div>
+    </div>
+  </div>
+  <div class="o-grid__col">
+    <div class="o-swatch">
+      <div class="o-swatch__background o-swatch__background--warning">
+        <h6 class="e-heading--headline">Warning</h6>
+        <code>#f68f23</code>
+      </div>
+    </div>
+  </div>
+  <div class="o-grid__col">
+    <div class="o-swatch">
+      <div class="o-swatch__background o-swatch__background--information">
+        <h6 class="e-heading--headline">Information</h6>
+        <code>#0275d8</code>
+      </div>
+    </div>
+  </div>
+  <div class="o-grid__col">
+    <div class="o-swatch">
+      <div class="o-swatch__background o-swatch__background--error">
+        <h6 class="e-heading--headline">Error</h6>
+        <code>#ea4747</code>
+      </div>
+    </div>
   </div>
 </div>
-<div class="o-swatch">
-  <div class="o-swatch__background o-swatch__background--warning">
-    <h6 class="e-heading--headline">Warning</h6>
-    <code>#f68f23</code>
-  </div>
-</div>
-<div class="o-swatch">
-  <div class="o-swatch__background o-swatch__background--information">
-    <h6 class="e-heading--headline">Information</h6>
-    <code>#0275d8</code>
-  </div>
-</div>
-<div class="o-swatch">
-  <div class="o-swatch__background o-swatch__background--error">
-    <h6 class="e-heading--headline">Error</h6>
-    <code>#ea4747</code>
-  </div>
-</div>
+
 
 ### Text
 Text colors can be applied to content to change their appearance and improve hierarchy.
 
-<div class="o-swatch">
-  <div class="o-swatch__background o-swatch__background--link">
-    <h6 class="e-heading--headline">Link</h6>
-    <code>#0a65be</code>
+<div class="o-grid o-grid--no-gutter">
+  <div class="o-grid__col">
+    <div class="o-swatch">
+      <div class="o-swatch__background o-swatch__background--link">
+        <h6 class="e-heading--headline">Link</h6>
+        <code>#0a65be</code>
+      </div>
+    </div>
   </div>
-</div>
-<div class="o-swatch">
-  <div class="o-swatch__background o-swatch__background--quiet">
-    <h6 class="e-heading--headline">Quiet</h6>
-    <code>#868c90</code>
+  <div class="o-grid__col">
+    <div class="o-swatch">
+      <div class="o-swatch__background o-swatch__background--quiet">
+        <h6 class="e-heading--headline">Quiet</h6>
+        <code>#868c90</code>
+      </div>
+    </div>
   </div>
-</div>
-<div class="o-swatch">
-  <div class="o-swatch__background o-swatch__background--secret">
-    <h6 class="e-heading--headline">Secret</h6>
-    <code>#aeb2b5</code>
+  <div class="o-grid__col">
+    <div class="o-swatch">
+      <div class="o-swatch__background o-swatch__background--secret">
+        <h6 class="e-heading--headline">Secret</h6>
+        <code>#aeb2b5</code>
+      </div>
+    </div>
+  </div>
+  <div class="o-grid__col">
+    <div class="o-swatch">
+      <div class="o-swatch__background o-swatch__background--highlight">
+        <h6 class="e-heading--headline">Highlight</h6>
+        <code>#ecdd93</code>
+      </div>
+    </div>
+  </div>
+  <div class="o-grid__col">
+    <div class="o-swatch">
+      <div class="o-swatch__background o-swatch__background--code">
+        <h6 class="e-heading--headline">Code</h6>
+        <code>#f9f2f4</code>
+      </div>
+    </div>
   </div>
 </div>
 
-<div class="o-swatch">
-  <div class="o-swatch__background o-swatch__background--highlight">
-    <h6 class="e-heading--headline">Highlight</h6>
-    <code>#ecdd93</code>
-  </div>
-</div>
-
-<div class="o-swatch">
-  <div class="o-swatch__background o-swatch__background--code">
-    <h6 class="e-heading--code">Code</h6>
-    <code>#f9f2f4</code>
-  </div>
-</div>
 
 ### Grid
 These colors should only be used in conjunction with the grid within a development environment.
 
-<div class="o-swatch">
-  <div class="o-swatch__background o-swatch__background--grid">
-    <h6 class="e-heading--headline">Grid</h6>
-    <code>#ff69b4</code>
+<div class="o-grid o-grid--no-gutter">
+  <div class="o-grid__col">
+    <div class="o-swatch">
+      <div class="o-swatch__background o-swatch__background--grid">
+        <h6 class="e-heading--headline">Grid</h6>
+        <code>#ff69b4</code>
+      </div>
+    </div>
   </div>
-</div>
-
-<div class="o-swatch">
-  <div class="o-swatch__background o-swatch__background--grid-col">
-    <h6 class="e-heading--headline">Grid Col</h6>
-    <code>#b2f5b5</code>
+  <div class="o-grid__col">
+    <div class="o-swatch">
+      <div class="o-swatch__background o-swatch__background--grid-col">
+        <h6 class="e-heading--headline">Grid Col</h6>
+        <code>#b2f5b5</code>
+      </div>
+    </div>
   </div>
-</div>
-
-<div class="o-swatch">
-  <div class="o-swatch__background o-swatch__background--grid-col-border">
-    <h6 class="e-heading--headline">Grid Col Border</h6>
-    <code>#00bfff</code>
+  <div class="o-grid__col">
+    <div class="o-swatch">
+      <div class="o-swatch__background o-swatch__background--grid-col-border">
+        <h6 class="e-heading--headline">Grid Col Border</h6>
+        <code>#00bfff</code>
+      </div>
+    </div>
   </div>
 </div>
 
