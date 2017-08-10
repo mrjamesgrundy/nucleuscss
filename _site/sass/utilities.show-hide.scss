@@ -1,0 +1,5 @@
+@import "tools/mixin.show-hide";
+
+.is-hidden {
+  @include hide();
+}

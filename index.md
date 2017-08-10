@@ -453,7 +453,7 @@ The secondary palette should only be used on elements that relate to the primary
 
 
 ### Monotone
-The monotone palette is used purely for a secondary color scheme when contrast is required within the UI.
+The monotone palette is used purely as a secondary color scheme when contrast is required within the UI.
 
 <div class="o-grid o-grid--no-gutter">
   <div class="o-grid__col">
@@ -620,18 +620,18 @@ These colors should only be used in conjunction with the grid within a developme
 
 ### Base
 <button class="c-button c-button--medium" type="button">Button</button>
-<button class="c-button c-button--medium" type="submit">Submit button</button>
+<button class="c-button c-button--medium" type="submit">Submit Button</button>
 <a href="#" class="c-button c-button--medium" role="button">Link Button</a>
-<input class="c-button c-button--medium" type="button" value="Input button">
-<input class="c-button c-button--medium" type="submit" value="Input submit button">
+<input class="c-button c-button--medium" type="button" value="Input Button">
+<input class="c-button c-button--medium" type="submit" value="Input Submit Button">
 <label class="c-button c-button--medium">Browse Button<input class="is-hidden" type="file"></label>
 
 {% highlight html %}
 <button class="c-button c-button--medium" type="button">Button</button>
-<button class="c-button c-button--medium" type="submit">Submit button</button>
+<button class="c-button c-button--medium" type="submit">Submit Button</button>
 <a href="#" class="c-button c-button--medium" role="button">Link Button</a>
-<input class="c-button c-button--medium" type="button" value="Input button">
-<input class="c-button c-button--medium" type="submit" value="Input submit button">
+<input class="c-button c-button--medium" type="button" value="Input Button">
+<input class="c-button c-button--medium" type="submit" value="Input Submit Button">
 <label class="c-button c-button--medium">Browse Button<input class="is-hidden" type="file"></label>
 {% endhighlight %}
 

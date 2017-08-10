@@ -79,6 +79,9 @@ $u-secondary-60: #e06666;
 $u-secondary-40: #eb9999;
 $u-secondary-20: #f5cccc;
 
+// Brand Tertiary
+$u-tertiary-100: #efd040;
+
 // Monotone
 $u-accent-100: #191919;
 $u-accent-80: #4c4c4c;
@@ -105,6 +108,9 @@ $u-grid: #ee78e6; // pink
 $u-grid-col: #c1d9b3; // green
 $u-grid-col-border: #9ec2e4; // blue
 
+//Color Tint
+$color-tint: 9 !default;
+
 
 /*
 * Typography
@@ -121,11 +127,12 @@ $paragraph: .813rem !default;
 $code: 1.077rem !default;
 
 // Text size
-$text-font-size-xsmall: .53rem !default;
-$text-font-size-small: .73rem !default;
-$text-font-size-medium: .83rem !default;
-$text-font-size-large: .93rem !default;
-$text-font-size-xlarge: 1rem !default;
+$text-font-size-super: 3em !default;
+$text-font-size-xlarge: 2em !default;
+$text-font-size-large: 1.5em !default;
+$text-font-size-medium: 1em !default;
+$text-font-size-small: 0.9em !default;
+$text-font-size-xsmall: 0.7em !default;
 
 // Weight
 $text-font-weight-regular: 400 !default;
@@ -139,13 +146,19 @@ $text-align-right: right !default;
 $text-align-justify: justify !default;
 $text-align-nowrap: nowrap !default;
 
+// Weights
+$text-font-weight: normal !default;
+$text-font-weight-heavy: bold !default;
+
 // Typeface
 $monospace: monospace !default;
 
 
 /*
-* Buttons & Links
+* Focus styles
 */
+$border-color-focus: $u-information !default;
+$box-shadow-focus: inset 0 0 0 2px lighten($border-color-focus, $color-tint) !default;
 
 
 /*
@@ -161,6 +174,52 @@ $border-color: $u-secondary-60 !default;
 */
 $border-radius: 4px !default;
 $border-radius-rounded: 40rem !default;
+
+
+/*
+* Buttons & Links
+*/
+$button-padding: $spacing-small !default;
+$button-margin: 0 !default;
+
+$button-color: $u-accent-0 !default;
+$button-background-color: $u-accent-40 !default;
+
+$button-disabled-color: $u-accent-40 !default;
+$button-disabled-background-color: $u-accent-20 !default;
+
+$button-font-family: inherit !default;
+$button-font-size: 1em !default;
+$button-font-style-disabled: italic !default;
+
+$button-border-width: $border-width !default;
+$button-border-style: $border-style !default;
+$button-border-color: transparent !default;
+$button-border: $button-border-width $button-border-style $button-border-color !default;
+$button-border-radius: $border-radius !default;
+
+$button-focus-border-color: $border-color-focus !default;
+$button-focus-box-shadow: $box-shadow-focus !default;
+
+$button-ghost-color: $border-color !default;
+$button-ghost-color-hover: $u-accent-0 !default;
+$button-ghost-border-width: $button-border-width !default;
+$button-ghost-border-style: $button-border-style !default;
+
+$button-rounded-border-radius: $border-radius-rounded !default;
+
+$button-close-font-weight: $text-font-weight-heavy !default;
+$button-close-font-size: 1.4em !default;
+
+$button-icon-left-padding: $spacing-small !default;
+$button-icon-right-padding: $spacing-small !default;
+
+$button-super-font-size: $text-font-size-super !default;
+$button-xlarge-font-size: $text-font-size-xlarge !default;
+$button-large-font-size: $text-font-size-large !default;
+$button-medium-font-size: $text-font-size-medium !default;
+$button-small-font-size: $text-font-size-small !default;
+$button-xsmall-font-size: $text-font-size-xsmall !default;
 
 
 /*

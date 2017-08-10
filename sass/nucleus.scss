@@ -1,12 +1,14 @@
 @import 'settings.global';
 
-@import 'tools/mixin.boxsizing';
+@import 'tools/mixin.box-sizing';
+@import "tools/mixin.buttons";
 @import "tools/mixin.container";
 @import "tools/mixin.grid";
 @import "tools/mixin.mediaqueries";
+@import "tools/mixin.show-hide";
 @import "tools/mixin.typography";
 
-@import 'generic.boxsizing';
+@import 'generic.box-sizing';
 
 @import "elements.form";
 @import 'elements.typography';
@@ -20,3 +22,5 @@
 @import 'components.buttons';
 @import 'components.cards';
 @import 'components.navigation';
+
+@import 'utilities.show-hide';
