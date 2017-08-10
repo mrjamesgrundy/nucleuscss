@@ -1,0 +1,5 @@
+@import "tools/mixin.display";
+
+.u-display-flex {
+  @include flex;
+}

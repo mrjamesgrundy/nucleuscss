@@ -1,0 +1,71 @@
+@import "settings.global";
+// @import "components.lists";
+
+@mixin card {
+  // @include list--unstyled;
+  display: block;
+  box-shadow: $card-box-shadow;
+  border-radius: $card-border-radius;
+  overflow: hidden;
+}
+
+@mixin card-spacing {
+  margin: $card-margin;
+}
+
+@mixin card-first-last-paragraph {
+  padding: 0;
+}
+
+@mixin card__content {
+  padding: $card-item-padding;
+}
+
+@mixin card__content--divider {
+  background-color: $card-divider-background-color;
+  color: $card-divider-color;
+  font-weight: $card-divider-font-weight;
+}
+
+@mixin card__item {
+  padding: $card-item-padding;
+  &:not(:last-child) {
+    border-bottom: $card-border;
+  }
+}
+
+@mixin card__item--borderless {
+  &:not(:last-child) {
+    border-bottom: 0;
+  }
+}
+
+@mixin card__group-divider {
+  height: $card-border-width;
+  overflow: hidden;
+  background-color: $card-divider-background-color;
+}
+
+@mixin card__item--divider {
+  @include card__content--divider;
+}
+
+@mixin card__item--hover {
+  cursor: pointer;
+}
+
+@mixin card__item--active {
+  background-color: $card-item-active-background-color;
+}
+
+@mixin card--high {
+  box-shadow: $box-shadow-high;
+}
+
+@mixin card--higher {
+  box-shadow: $box-shadow-higher;
+}
+
+@mixin card--highest {
+  box-shadow: $box-shadow-highest;
+}

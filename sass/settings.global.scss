@@ -79,9 +79,6 @@ $u-secondary-60: #e06666;
 $u-secondary-40: #eb9999;
 $u-secondary-20: #f5cccc;
 
-// Brand Tertiary
-$u-tertiary-100: #efd040;
-
 // Monotone
 $u-accent-100: #191919;
 $u-accent-80: #4c4c4c;
@@ -100,7 +97,7 @@ $u-error: #ea4747;
 $u-link: #0a65be;
 $u-quiet: #868c90;
 $u-secret: #aeb2b5;
-$u-highlight: #ecdd93;
+$u-highlight: #efd040;
 $u-code: #f9f2f4;
 
 // Grid
@@ -234,13 +231,36 @@ $spacing-xxlarge: 1rem !default;
 
 
 /*
-* Labels
+* Box Shadows
 */
+$box-shadow: 0 0 1px transparentize($u-accent-100, .7) !default;
+$box-shadow-high: 0 0 1px transparentize($u-accent-100, .7), 0 5px 10px -3px transparentize($u-accent-100, .8) !default;
+$box-shadow-higher: 0 0 1px transparentize($u-accent-100, .7), 0 10px 25px -4px transparentize($u-accent-100, .8) !default;
+$box-shadow-highest: 0 0 1px transparentize($u-accent-100, .7), 0 20px 55px -8px transparentize($u-accent-100, .8) !default;
+
+$box-shadow-solid: 0 0 1px transparentize($u-accent-100, .3) !default;
+$box-shadow-solid-high: 0 0 1px transparentize($u-accent-100, .3), 0 5px 10px -3px transparentize($u-accent-100, .2) !default;
+$box-shadow-solid-higher: 0 0 1px transparentize($u-accent-100, .3), 0 10px 25px -4px transparentize($u-accent-100, .2) !default;
+$box-shadow-solid-highest: 0 0 1px transparentize($u-accent-100, .3), 0 20px 55px -8px transparentize($u-accent-100, .2) !default;
 
 
 /*
-* Status
+* Cards
 */
+$card-margin: $spacing-medium 0 0 0 !default;
+$card-border-width: $border-width !default;
+$card-border-style: $border-style !default;
+$card-border-color: $u-accent-20 !default;
+$card-border: $card-border-width $card-border-style $card-border-color !default;
+$card-box-shadow: $box-shadow !default;
+$card-border-radius: $border-radius !default;
+
+$card-divider-background-color: $u-accent-80 !default;
+$card-divider-color: $u-accent-0 !default;
+$card-divider-font-weight: $text-font-weight-heavy !default;
+
+$card-item-active-background-color: $card-border-color !default;
+$card-item-padding: $spacing-medium !default;
 
 
 /*

@@ -1,0 +1,9 @@
+@import "tools/mixin.media";
+
+.o-image {
+  @include image;
+}
+
+// .o-video {
+//   @include video;
+// }

@@ -9,6 +9,7 @@ sub: Style Guide
 * [Colors](#colors "Colors")
 * [Buttons](#buttons "Buttons")
 * [Grid](#grid "Grid")
+* [Cards](#cards "Cards")
 
 ---
 
@@ -855,4 +856,66 @@ Usually cells in a grid will be fluid and responsive. If however you want to set
   <div class="o-grid__col o-grid__col--width-fixed">static width of 250px</div>
   <div class="o-grid__col">third</div>
 </div>
+{% endhighlight %}
+
+### Cards
+
+<div class="o-grid">
+  <div class="o-grid__col">
+    <div class="c-card c-card--higher" style="width: 265px;">
+      <header class="c-card__header">
+        <img class="o-image" src="http://www.placecage.com/gif/265/195" alt="Placeholder"/>   
+      </header>
+
+      <div class="c-card__content">
+        <h6 class="e-heading--headline">Headline</h6>
+        <p class="e-paragraph">Lorem ipsum dolor sit amet, feugiat corpora ex eam. Inciderint eloquentiam sea et.</p>
+      </div>
+
+      <footer class="c-card__footer c-card__item">
+        <button class="c-button c-button--block c-button--secondary">Button</button>
+      </footer>
+    </div>
+  </div>
+</div>
+
+{% highlight html %}
+<div class="c-card c-card--higher">
+  <header class="c-card__header">
+    <img class="o-image" src="http://www.placecage.com/gif/265/195" alt="Placeholder"/>   
+  </header>
+
+  <div class="c-card__content">
+    <h6 class="e-heading--headline">Headline</h6>
+    <p class="e-paragraph">Lorem ipsum dolor sit amet, feugiat corpora ex eam. Inciderint eloquentiam sea et.</p>
+  </div>
+
+  <footer class="c-card__footer c-card__item">
+    <button class="c-button c-button--block c-button--secondary">Button</button>
+  </footer>
+</div>
+{% endhighlight %}
+
+<div class="o-grid">
+  <div class="o-grid__col">
+    <div class="c-card c-card--higher">
+      <header class="c-card__header">
+        <img class="o-image" src="http://www.placecage.com/gif/210/180" alt="Placeholder"/>   
+      </header>
+
+      <div class="c-card__content">
+        <h6 class="e-heading--headline">Headline</h6>
+        <p class="e-paragraph">Lorem ipsum dolor sit amet, feugiat corpora ex eam. Inciderint eloquentiam sea et.</p>
+      </div>
+
+      <footer class="c-card__footer c-card__item u-display-flex">
+        <button class="c-button c-button--block c-button--secondary">Button</button>
+        <button class="c-button c-button--block c-button--primary c-button--ghost-primary">Button</button>
+      </footer>
+    </div>
+  </div>
+</div>
+
+{% highlight html %}
+
 {% endhighlight %}
