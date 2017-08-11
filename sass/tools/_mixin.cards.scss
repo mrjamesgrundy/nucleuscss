@@ -9,6 +9,10 @@
   overflow: hidden;
 }
 
+@mixin card-wide {
+  text-align: left;
+}
+
 @mixin card-spacing {
   margin: $card-margin;
 }
@@ -21,11 +25,11 @@
   padding: $card-item-padding;
 }
 
-@mixin card__content--divider {
-  background-color: $card-divider-background-color;
-  color: $card-divider-color;
-  font-weight: $card-divider-font-weight;
-}
+// @mixin card__content--divider {
+//   background-color: $card-divider-background-color;
+//   color: $card-divider-color;
+//   font-weight: $card-divider-font-weight;
+// }
 
 @mixin card__item {
   padding: $card-item-padding;
@@ -40,15 +44,15 @@
   }
 }
 
-@mixin card__group-divider {
-  height: $card-border-width;
-  overflow: hidden;
-  background-color: $card-divider-background-color;
-}
-
-@mixin card__item--divider {
-  @include card__content--divider;
-}
+// @mixin card__group-divider {
+//   height: $card-border-width;
+//   overflow: hidden;
+//   background-color: $card-divider-background-color;
+// }
+//
+// @mixin card__item--divider {
+//   @include card__content--divider;
+// }
 
 @mixin card__item--hover {
   cursor: pointer;

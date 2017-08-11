@@ -1,10 +1,12 @@
 @import "settings.global";
 
-@mixin font-size($sizeValue: 16, $line: $sizeValue * 1.5) {
-    font-size: ($sizeValue) + px;
-    line-height: ($line) + px;
-    font-size: ($sizeValue / 16) + rem;
-    line-height: ($line / 16) + rem;
+@mixin font-size($sizeValue: 16, $line: $sizeValue * 1.6) {
+  font-size: ($sizeValue) + px;
+  line-height: ($line) + px;
+  font-size: ($sizeValue / 16) + rem;
+  line-height: ($line / 16) + rem;
+  margin-top: ($line / 38) + rem;
+  margin-bottom: (0);
 }
 
 @mixin heading--main {
@@ -34,12 +36,13 @@
 
 @mixin heading--headline {
   font-weight: $text-font-weight-semibold;
+  text-transform: $text-transform;
   @include font-size(14);
 }
 
 @mixin paragraph {
   font-weight: $text-font-weight-regular;
-  @include font-size(13);
+  @include font-size(14);
 }
 
 @mixin code {
@@ -60,8 +63,7 @@
 }
 
 @mixin typography--monospace {
-  font-weight: $text-font-weight-regular;
-  // font-family: $monospace;
+  font-family: $monospace;
 }
 
 @mixin align--left {

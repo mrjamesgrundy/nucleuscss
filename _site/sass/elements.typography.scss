@@ -123,6 +123,8 @@ samp.e-code {
 
 // Lists
 dl.e-definition-list {
+  font-size: $paragraph;
+
   dt {
     @include typography--semi-bold;
   }
@@ -136,6 +138,12 @@ dl.e-definition-list {
 ol.e-ordered-list {
   counter-reset: a;
   list-style-type: none;
+  font-size: $paragraph;
+  padding: 0;
+
+  > li ol {
+    padding: 0 0 0 2em;
+  }
 
   li:before {
     @include typography--semi-bold;
@@ -146,23 +154,31 @@ ol.e-ordered-list {
 
 ul.e-unordered-list {
   list-style: disc outside;
+  font-size: $paragraph;
+  padding: 0 0 0 1.5em;
+
+  > li ul {
+    padding: 0 0 0 2em;
+  }
 
   &.e-unordered-list--unstyled {
     list-style: none;
-    margin-left: 0;
+    padding: 0;
 
     > li ul {
       list-style-type: none;
+      padding: 0 0 0 2em;
     }
   }
 
   &.e-unordered-list--inline {
     list-style: none;
-    margin-left: -5px;
+    margin-left: -.5em;
+    padding: 0;
 
     > li {
       display: inline-block;
-      padding: 0 5px;
+      padding: 0 .5em;
     }
   }
 }
@@ -173,11 +189,12 @@ blockquote.e-blockquote {
   display: block;
   padding: 10px 25px;
   border-left: $border-width solid $u-accent-100;
+  margin: 0;
 
   p.e-blockquote__paragraph {
     @include paragraph;
     text-indent: -0.42em;
-    margin-bottom: 0;
+    margin: 0;
     color: initial;
 
     &:before {

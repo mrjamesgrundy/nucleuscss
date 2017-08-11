@@ -3,3 +3,49 @@
 @mixin flex {
   display: flex;
 }
+
+@mixin block {
+  display: block;
+}
+
+@mixin inline {
+  display: inline-block;
+}
+
+@mixin center {
+  display: block;
+  margin: 0 auto !important;
+  float: none;
+  position: relative;
+}
+
+@mixin absolute {
+  position: absolute;
+}
+
+@mixin relative {
+  position: fixed;
+}
+
+@mixin fixed {
+  position: fixed;
+}
+
+@mixin relative {
+  position: relative;
+}
+
+@mixin centered {
+  position: absolute !important;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(1.0, 1.0);
+}
+
+@mixin left {
+  float: left;
+}
+
+@mixin right {
+  float: right;
+}

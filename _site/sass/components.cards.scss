@@ -17,26 +17,12 @@
   @include card__content;
 }
 
-.c-card__content--divider {
-  @include card__content--divider;
-}
-
 .c-card__item {
   @include card__item;
 }
 
-.c-card__item--divider {
-  @include card__item--divider;
-}
-
-.c-card--grouped {
-  .c-card__item {
-    @include card__item--borderless;
-  }
-}
-
-.c-card__group-divider {
-  @include card__group-divider;
+.c-card--wide {
+  @include card-wide;
 }
 
 .c-card--high {

@@ -3,3 +3,39 @@
 .u-display-flex {
   @include flex;
 }
+
+.u-display-block {
+  @include block;
+}
+
+.u-display-inline-block {
+  @include inline;
+}
+
+.u-display-center {
+  @include center;
+}
+
+.u-position-absolute {
+  @include absolute;
+}
+
+.u-position-fixed {
+  @include fixed;
+}
+
+.u-position-relative {
+  @include relative;
+}
+
+.u-absolute-center {
+  @include centered;
+}
+
+.u-float-left {
+  @include left;
+}
+
+.u-float-right {
+  @include right;
+}

@@ -120,7 +120,7 @@ $heading--section: 1.25rem !default;
 $heading--descriptive: 1rem !default;
 $heading--overview: .875rem !default;
 $heading--headline: .875rem !default;
-$paragraph: .813rem !default;
+$paragraph: .875rem !default;
 $code: 1.077rem !default;
 
 // Text size
@@ -149,6 +149,9 @@ $text-font-weight-heavy: bold !default;
 
 // Typeface
 $monospace: monospace !default;
+
+// Uppercase
+$text-transform: uppercase !default;
 
 
 /*
