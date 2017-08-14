@@ -49,10 +49,12 @@
 
   .o-swatch__background--primary-40 {
     background-color: $u-primary-40;
+    color: $u-primary-100;
   }
 
   .o-swatch__background--primary-20 {
     background-color: $u-primary-20;
+    color: $u-primary-100;
   }
 
   // Brand Secondary
@@ -70,10 +72,12 @@
 
   .o-swatch__background--secondary-40 {
     background-color: $u-secondary-40;
+    color: $u-secondary-100;
   }
 
   .o-swatch__background--secondary-20 {
     background-color: $u-secondary-20;
+    color: $u-secondary-100;
   }
 
   // Monotone
@@ -95,6 +99,12 @@
 
   .o-swatch__background--accent-20 {
     background-color: $u-accent-20;
+    color: $u-accent-100;
+  }
+
+  .o-swatch__background--accent-0 {
+    background-color: $u-accent-0;
+    color: $u-accent-100;
   }
 
   // UI
@@ -133,6 +143,7 @@
 
   .o-swatch__background--code {
     background-color: $u-code;
+    color: $u-accent-100;
   }
 
   // Grid
@@ -181,8 +192,9 @@
   background-color: $u-accent-20;
   border-radius: $border-radius;
   color: $u-accent-60;
-  margin: 0;
+  margin: $spacing-xxlarge 0;
   padding: $spacing-xsmall $spacing-xxlarge;
+  overflow: hidden;
 
   /* Comment */
   .c {

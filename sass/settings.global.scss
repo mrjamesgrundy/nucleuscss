@@ -164,6 +164,7 @@ $box-shadow-focus: inset 0 0 0 2px lighten($border-color-focus, $color-tint) !de
 * Borders
 */
 $border-width: 1px !default;
+$border-width-wide: 3px !default;
 $border-style: solid !default;
 $border-color: $u-secondary-60 !default;
 

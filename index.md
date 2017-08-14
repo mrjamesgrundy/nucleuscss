@@ -10,6 +10,8 @@ sub: Style Guide
 * [Buttons](#buttons "Buttons")
 * [Grid](#grid "Grid")
 * [Cards](#cards "Cards")
+* [Images](#images "Images")
+* [Video](#video "Video")
 
 ---
 
@@ -20,7 +22,6 @@ sub: Style Guide
 * [Weights and Types](#weights-and-types "Weights and Types")
 * [Lists](#lists "Lists")
 * [Styles](#styles "Styles")
-* [Usage](#usage "Usage")
 
 ### Hierarchy
 
@@ -292,64 +293,6 @@ sub: Style Guide
 <p><code class="u-typography--code">code</code></p>
 {% endhighlight %}
 
-### Usage
-<h1 class="e-heading--main">Main Headline</h1>
-<h2 class="e-heading--sub u-typography--quiet">Sub Headline</h2>
-<h6 class="e-heading--headline u-typography--information">Date / Time</h6>
-
-<p class="e-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-
-<h3 class="e-heading--section">Section Headline</h3>
-<p class="e-paragraph">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
-
-<h4 class="e-heading--descriptive">Descriptive Headline</h4>
-<p class="e-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-
-<ul class="e-unordered-list">
-  <li>List item 1</li>
-  <li>List item 2</li>
-  <li>List item 3
-    <ul class="e-unordered-list">
-      <li>Nested list item 1</li>
-      <li>Nested list item 2
-        <ul class="e-unordered-list">
-          <li>Nested list item 1</li>
-          <li>Nested list item 2</li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-</ul>
-
-<h5 class="e-heading--overview u-typography--secret">Overview Headline</h5>
-<p class="e-paragraph u-typography--secret">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-
-<ol class="e-ordered-list u-typography--secret">
-  <li>List item 1</li>
-  <li>List item 2</li>
-  <li>List item 3
-    <ol class="e-ordered-list">
-      <li>Nested list item 1</li>
-      <li>Nested list item 2
-        <ol class="e-ordered-list">
-          <li>Nested list item 1</li>
-          <li>Nested list item 2</li>
-        </ol>
-      </li>
-    </ol>
-  </li>
-</ol>
-
-<h6 class="e-heading--headline u-typography--information">Section Headline</h6>
-<dl class="e-definition-list">
-  <dt>Definition list title 1</dt>
-  <dd><a href="#" title="Definition list description 1">Definition list description 1</a></dd>
-  <dt>Definition list title 2</dt>
-  <dd><a href="#" title="Definition list description 2">Definition list description 2</a></dd>
-  <dt>Definition list title 3</dt>
-  <dd><a href="#" title="Definition list description 3">Definition list description 3</a></dd>
-</dl>
-
 ---
 
 ## Colors
@@ -495,6 +438,15 @@ The monotone palette is used purely as a secondary color scheme when contrast is
       <div class="o-swatch__background o-swatch__background--accent-20">
         <h6 class="e-heading--headline">Monotone 20</h6>
         <code>#e5e5e5</code>
+      </div>
+    </div>
+  </div>
+
+  <div class="o-grid__col">
+    <div class="o-swatch">
+      <div class="o-swatch__background o-swatch__background--accent-0">
+        <h6 class="e-heading--headline">Monotone 0</h6>
+        <code>#ffffff</code>
       </div>
     </div>
   </div>
@@ -859,24 +811,19 @@ Usually cells in a grid will be fluid and responsive. If however you want to set
 {% endhighlight %}
 
 ### Cards
+<div class="c-card c-card--higher" style="width: 265px;">
+  <header class="c-card__header">
+    <img class="o-image" src="http://www.placecage.com/gif/265/195" alt="Placeholder"/>   
+  </header>
 
-<div class="o-grid">
-  <div class="o-grid__col">
-    <div class="c-card c-card--higher" style="width: 265px;">
-      <header class="c-card__header">
-        <img class="o-image" src="http://www.placecage.com/gif/265/195" alt="Placeholder"/>   
-      </header>
-
-      <div class="c-card__content">
-        <h6 class="e-heading--headline">Headline</h6>
-        <p class="e-paragraph">Lorem ipsum dolor sit amet, feugiat corpora ex eam. Inciderint eloquentiam sea et.</p>
-      </div>
-
-      <footer class="c-card__footer c-card__item">
-        <button class="c-button c-button--block c-button--secondary">Button</button>
-      </footer>
-    </div>
+  <div class="c-card__content">
+    <h6 class="e-heading--headline">Headline</h6>
+    <p class="e-paragraph">Lorem ipsum dolor sit amet, feugiat corpora ex eam. Inciderint eloquentiam sea et.</p>
   </div>
+
+  <footer class="c-card__footer c-card__item">
+    <button class="c-button c-button--block c-button--secondary">Button</button>
+  </footer>
 </div>
 
 {% highlight html %}
@@ -896,24 +843,20 @@ Usually cells in a grid will be fluid and responsive. If however you want to set
 </div>
 {% endhighlight %}
 
-<div class="o-grid">
-  <div class="o-grid__col">
-    <div class="c-card c-card--wide c-card--higher">
-      <header class="c-card__header">
-        <img class="o-image" src="http://www.placecage.com/gif/210/180" alt="Placeholder"/>   
-      </header>
+<div class="c-card c-card--wide c-card--higher">
+  <header class="c-card__header">
+    <img class="o-image" src="http://www.placecage.com/gif/210/180" alt="Placeholder"/>   
+  </header>
 
-      <div class="c-card__content">
-        <h6 class="e-heading--headline">Headline</h6>
-        <p class="e-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      </div>
-
-      <footer class="c-card__footer c-card__item u-display-flex">
-        <button class="c-button c-button--block c-button--secondary">Button</button>
-        <button class="c-button c-button--block c-button--primary c-button--ghost-primary">Button</button>
-      </footer>
-    </div>
+  <div class="c-card__content">
+    <h6 class="e-heading--headline">Headline</h6>
+    <p class="e-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
   </div>
+
+  <footer class="c-card__footer c-card__item u-display-flex">
+    <button class="c-button c-button--block c-button--secondary">Button</button>
+    <button class="c-button c-button--block c-button--primary c-button--ghost-primary">Button</button>
+  </footer>
 </div>
 
 {% highlight html %}
@@ -932,4 +875,30 @@ Usually cells in a grid will be fluid and responsive. If however you want to set
     <button class="c-button c-button--block c-button--primary c-button--ghost-primary">Button</button>
   </footer>
 </div>
+{% endhighlight %}
+
+### Images
+Displayed as a block so they scale per their original aspect ratio.
+
+<img class="o-image" src="http://www.placecage.com/gif/250/250" alt="Placeholder">
+
+{% highlight html %}
+<img class="o-image" src="http://www.placecage.com/gif/210/180" alt="Placeholder">
+{% endhighlight %}
+
+### Video
+Displayed as a block so they scale per their original aspect ratio.
+
+<video class="o-video" controls>
+  <source src="https://www.videvo.net/app/stream.php?id=6415" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+
+Video courtesy of [videovo](https://www.videvo.net/){:target="_blank"}
+
+{% highlight html %}
+<video class="o-video" controls>
+  <source src="https://www.videvo.net/app/stream.php?id=6415" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
 {% endhighlight %}

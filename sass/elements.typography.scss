@@ -184,8 +184,8 @@ ul.e-unordered-list {
 blockquote.e-blockquote {
   quotes: "'" "'";
   display: block;
-  padding: 10px 25px;
-  border-left: $border-width solid $u-accent-100;
+  padding: $spacing-small $spacing-xxlarge;
+  border-left: $border-width-wide solid $u-accent-100;
   margin: 0;
 
   p.e-blockquote__paragraph {
