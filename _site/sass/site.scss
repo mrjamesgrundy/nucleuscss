@@ -31,6 +31,7 @@
 
   .o-swatch__background {
     color: $u-accent-0;
+    padding: $spacing-small $spacing-xxlarge $spacing-xxlarge;
   }
 
   // Brand Primary
@@ -181,7 +182,7 @@
   border-radius: $border-radius;
   color: $u-accent-60;
   margin: 0;
-  padding: 5px 30px;
+  padding: $spacing-xsmall $spacing-xxlarge;
 
   /* Comment */
   .c {

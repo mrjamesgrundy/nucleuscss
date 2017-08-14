@@ -23,6 +23,27 @@
 
 .c-card--wide {
   @include card-wide;
+
+  .c-card__header {
+    width: 20%;
+    float: left;
+  }
+
+  .c-card__content {
+    width: 80%;
+    float: right;
+    padding: $spacing-xsmall $spacing-xxlarge;
+  }
+
+  .c-card__footer {
+    width: 80%;
+    float: right;
+    padding: $spacing-small;
+
+    .c-button--block {
+      margin: $spacing-medium;
+    }
+  }
 }
 
 .c-card--high {

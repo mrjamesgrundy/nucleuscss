@@ -114,10 +114,13 @@
   color: $u-primary-100;
   background-color: $u-highlight;
   border-radius: $border-radius;
+  padding: $spacing-small;
 }
 
 @mixin typography--code {
   color: $u-primary-100;
   background-color: $u-code;
   border-radius: $border-radius;
+  padding: $spacing-small;
+  font-family: $monospace;
 }

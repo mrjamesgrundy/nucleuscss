@@ -95,12 +95,10 @@
 
 .u-typography--highlight {
   @include typography--highlight;
-  padding: 5px 10px;
 }
 
 .u-typography--code {
   @include typography--code;
-  padding: 2px 4px;
 }
 
 .u-typography--monospace {
@@ -117,8 +115,7 @@ code.e-code,
 kbd.e-code,
 pre.e-code,
 samp.e-code {
-  font-family: monospace, monospace;
-  @include code;
+  // @include code;
 }
 
 // Lists

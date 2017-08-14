@@ -116,16 +116,16 @@ sub: Style Guide
 {% endhighlight %}
 
 ### Weights and Types
-<p class="e-paragraph u-typography--bold">Open Sans Bold 700</p>
-<p class="e-paragraph u-typography--semi-bold">Open Sans Semi Bold 600</p>
-<p class="e-paragraph u-typography--regular">Open Sans Regular 400</p>
-<p class="e-paragraph u-typography--monospace">Monospace 400</p>
+<p class="u-typography--bold">Open Sans Bold 700</p>
+<p class="u-typography--semi-bold">Open Sans Semi Bold 600</p>
+<p class="u-typography--regular">Open Sans Regular 400</p>
+<p class="u-typography--monospace">Monospace 400</p>
 
 {% highlight html %}
-<p class="e-paragraph u-typography--bold">Open Sans Bold 700</p>
-<p class="e-paragraph u-typography--semi-bold">Open Sans Semi Bold 600</p>
-<p class="e-paragraph u-typography--regular">Open Sans Regular 400</p>
-<p class="e-paragraph u-typography--monospace">Monospace 400</p>
+<p class="u-typography--bold">Open Sans Bold 700</p>
+<p class="u-typography--semi-bold">Open Sans Semi Bold 600</p>
+<p class="u-typography--regular">Open Sans Regular 400</p>
+<p class="u-typography--monospace">Monospace 400</p>
 {% endhighlight %}
 
 ### Lists
@@ -279,7 +279,7 @@ sub: Style Guide
 <p class="e-paragraph"><span class="u-typography--quiet">Quiet</span></p>
 <p class="e-paragraph"><span class="u-typography--secret">Secret</span></p>
 <p class="e-paragraph"><span class="u-typography--highlight">Highlight</span></p>
-<p class="e-paragraph"><code class="u-typography--code">code</code></p>
+<p><code class="u-typography--code">code</code></p>
 
 {% highlight html %}
 <p class="e-paragraph"><span class="u-typography--success">Success</span></p>
@@ -289,7 +289,7 @@ sub: Style Guide
 <p class="e-paragraph"><span class="u-typography--quiet">Quiet</span></p>
 <p class="e-paragraph"><span class="u-typography--secret">Secret</span></p>
 <p class="e-paragraph"><span class="u-typography--highlight">Highlight</span></p>
-<p class="e-paragraph"><code class="u-typography--code">code</code></p>
+<p><code class="u-typography--code">code</code></p>
 {% endhighlight %}
 
 ### Usage
@@ -899,13 +899,13 @@ Usually cells in a grid will be fluid and responsive. If however you want to set
 <div class="o-grid">
   <div class="o-grid__col">
     <div class="c-card c-card--wide c-card--higher">
-      <header class="c-card__header u-float-left">
+      <header class="c-card__header">
         <img class="o-image" src="http://www.placecage.com/gif/210/180" alt="Placeholder"/>   
       </header>
 
       <div class="c-card__content">
         <h6 class="e-heading--headline">Headline</h6>
-        <p class="e-paragraph">Lorem ipsum dolor sit amet, feugiat corpora ex eam. Inciderint eloquentiam sea et.</p>
+        <p class="e-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
       </div>
 
       <footer class="c-card__footer c-card__item u-display-flex">
@@ -917,5 +917,19 @@ Usually cells in a grid will be fluid and responsive. If however you want to set
 </div>
 
 {% highlight html %}
+<div class="c-card c-card--wide c-card--higher">
+  <header class="c-card__header">
+    <img class="o-image" src="http://www.placecage.com/gif/210/180" alt="Placeholder"/>   
+  </header>
 
+  <div class="c-card__content">
+    <h6 class="e-heading--headline">Headline</h6>
+    <p class="e-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+
+  <footer class="c-card__footer c-card__item u-display-flex">
+    <button class="c-button c-button--block c-button--secondary">Button</button>
+    <button class="c-button c-button--block c-button--primary c-button--ghost-primary">Button</button>
+  </footer>
+</div>
 {% endhighlight %}

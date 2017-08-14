@@ -1,12 +1,12 @@
 /*
 * Screen Sizes
 */
-$screen-limit-xsmall: 20em !default;
-$screen-limit-small: 30em !default;
-$screen-limit-medium: 48em !default;
-$screen-limit-large: 64em !default;
-$screen-limit-xlarge: 87.5em !default;
-$screen-limit-super: 116em !default;
+$screen-limit-xsmall: 20rem !default;
+$screen-limit-small: 30rem !default;
+$screen-limit-medium: 48rem !default;
+$screen-limit-large: 64rem !default;
+$screen-limit-xlarge: 87.5rem !default;
+$screen-limit-xxlarge: 116rem !default;
 $screen-adjustment: 0.01 !default;
 
 $screen-limits: (
@@ -15,20 +15,19 @@ $screen-limits: (
   medium: $screen-limit-medium,
   large: $screen-limit-large,
   xlarge: $screen-limit-xlarge,
-  super: $screen-limit-super
+  xxlarge: $screen-limit-xxlarge
 );
 
 
 /*
 * Spacing
 */
-$spacing-tiny: .1em !default;
-$spacing-xsmall: .3em !default;
-$spacing-small: .5em !default;
-$spacing-medium: 1em !default;
-$spacing-large: 1.5em !default;
-$spacing-xlarge: 2em !default;
-$spacing-super: 3em !default;
+$spacing-xsmall: .125rem !default; //5px
+$spacing-small: .25rem !default; //10px
+$spacing-medium: .5rem !default; //15px
+$spacing-large: .75rem !default; //20px
+$spacing-xlarge: .95rem !default; //25px
+$spacing-xxlarge: 1rem !default; //30px
 
 
 /*
@@ -121,10 +120,10 @@ $heading--descriptive: 1rem !default;
 $heading--overview: .875rem !default;
 $heading--headline: .875rem !default;
 $paragraph: .875rem !default;
-$code: 1.077rem !default;
+// $code: 1.077rem !default;
 
 // Text size
-$text-font-size-super: 3em !default;
+$text-font-size-xxlarge: 3em !default;
 $text-font-size-xlarge: 2em !default;
 $text-font-size-large: 1.5em !default;
 $text-font-size-medium: 1em !default;
@@ -214,23 +213,12 @@ $button-close-font-size: 1.4em !default;
 $button-icon-left-padding: $spacing-small !default;
 $button-icon-right-padding: $spacing-small !default;
 
-$button-super-font-size: $text-font-size-super !default;
+$button-xxlarge-font-size: $text-font-size-xxlarge !default;
 $button-xlarge-font-size: $text-font-size-xlarge !default;
 $button-large-font-size: $text-font-size-large !default;
 $button-medium-font-size: $text-font-size-medium !default;
 $button-small-font-size: $text-font-size-small !default;
 $button-xsmall-font-size: $text-font-size-xsmall !default;
-
-
-/*
-* Spacing
-*/
-$spacing-xsmall: .125rem !default;
-$spacing-small: .25rem !default;
-$spacing-medium: .5rem !default;
-$spacing-large: .75rem !default;
-$spacing-xlarge: .95rem !default;
-$spacing-xxlarge: 1rem !default;
 
 
 /*
@@ -263,7 +251,7 @@ $card-divider-color: $u-accent-0 !default;
 $card-divider-font-weight: $text-font-weight-heavy !default;
 
 $card-item-active-background-color: $card-border-color !default;
-$card-item-padding: $spacing-medium !default;
+$card-item-padding: $spacing-xsmall $spacing-large $spacing-large !default;
 
 
 /*
