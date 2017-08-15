@@ -1,0 +1,70 @@
+@import "settings.global";
+
+@mixin nav--color($background-color: $nav-background-color, $color: $nav-color) {
+  color: $color;
+  background-color: $background-color;
+}
+
+@mixin o-image {
+  vertical-align: middle;
+}
+
+@mixin nav {
+  padding: $nav-padding;
+  margin: $nav-margin;
+  width: $nav-width;
+  height: $nav-height;
+  line-height: $nav-line-height;
+  z-index: $nav-z-index;
+  font-size: $text-font-size-small;
+  @include nav--color;
+}
+
+@mixin nav__item--color($hover-color: $nav-item-hover-color) {
+  & {
+    color: $nav-color;
+
+    &:visited {
+      color: $nav-color;
+    }
+
+    &:hover, &:focus {
+      color: $hover-color;
+    }
+
+    &:active {
+      color: $hover-color;
+      box-shadow: 0 $border-width-wide 0 0 $u-highlight;
+    }
+  }
+}
+
+@mixin nav__item {
+  display: block;
+  padding: $nav-item-padding;
+  color: inherit;
+  letter-spacing: $nav-item-letter-spacing;
+  cursor: pointer;
+  text-decoration: none;
+  @include nav__item--color;
+}
+
+@mixin nav--inline__item {
+  display: inline-block;
+  @include o-image;
+}
+
+@mixin nav__item--right {
+  float: right;
+}
+
+@mixin nav__item--buttons {
+  display: inline-block;
+  line-height: $nav-buttons-line-height;
+  width: $nav-buttons-width;
+  text-align: center;
+}
+
+@mixin nav--fixed {
+  position: fixed;
+}

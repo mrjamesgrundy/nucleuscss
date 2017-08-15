@@ -256,5 +256,33 @@ $card-item-padding: $spacing-xsmall $spacing-large $spacing-large !default;
 
 
 /*
-* Focus styles
+* Z Indexes
 */
+$z-over-content: 100 !default;
+$z-over-control: 200 !default;
+$z-over-page: 300 !default;
+$z-over-screen: 400 !default;
+$z-over-everything: 500 !default;
+
+
+/*
+* Navigation
+*/
+$nav-width: 100% !default;
+$nav-height: 70px !default;
+$nav-line-height: 67px !default;
+$nav-padding: 0 !default;
+$nav-margin: 0 !default;
+$nav-background-color: $u-primary-100 !default;
+$nav-color: $u-accent-0 !default;
+$nav-z-index: $z-over-page !default;
+
+$nav-item-padding: 0 $spacing-large !default;
+$nav-item-letter-spacing: 1px !default;
+$nav-buttons-line-height: 30px !default;
+$nav-buttons-width: 100px !default;
+
+$nav-item-hover-color: $u-highlight !default;
+
+$nav-item-active-background-color: $u-accent-80 !default;
+$nav-item-active-color: $u-accent-0 !default;

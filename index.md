@@ -12,6 +12,7 @@ sub: Style Guide
 * [Cards](#cards "Cards")
 * [Images](#images "Images")
 * [Video](#video "Video")
+* [Navigation](#navigation "Navigation")
 
 ---
 
@@ -901,4 +902,30 @@ Video courtesy of [videovo](https://www.videvo.net/){:target="_blank"}
   <source src="https://www.videvo.net/app/stream.php?id=6415" type="video/mp4">
   Your browser does not support HTML5 video.
 </video>
+{% endhighlight %}
+
+### Navigation
+<ul class="c-nav c-nav--inline">
+  <li class="c-nav__item"><img class="o-image" src="http://www.placecage.com/gif/167/40" alt="Placeholder"></li>
+  <li class="c-nav__item"><a href="#" title="Home">Home</a></li>
+  <li class="c-nav__item"><a href="#" title="About">About</a></li>
+  <li class="c-nav__item"><a href="#" title="News">News</a></li>
+  <li class="c-nav__item"><a href="#" title="Contact">Contact</a></li>
+  <li class="c-nav__item c-nav__item--right c-nav__item--buttons">
+    <a href="#" title="Join" class="c-button c-button--medium c-button--secondary" role="button">Join</a>
+    <a href="#" title="Log in" class="c-button c-button--medium c-button--ghost-secondary" role="button">Log in</a>
+  </li>
+</ul>
+
+{% highlight html %}
+<ul class="c-nav c-nav--inline">
+  <li class="c-nav__item">Home</li>
+  <li class="c-nav__item">About</li>
+  <li class="c-nav__item">News</li>
+  <li class="c-nav__item">Contact</li>
+  <li class="c-nav__item c-nav__item--right">
+    <a href="#" href="#" class="c-button c-button--medium c-button--secondary" role="button">Join</a>
+    <a href="#" href="#" class="c-button c-button--medium c-button--ghost-secondary" role="button">Log in</a>
+  </li>
+</ul>
 {% endhighlight %}

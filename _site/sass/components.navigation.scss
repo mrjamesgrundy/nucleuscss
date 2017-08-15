@@ -1,17 +1,36 @@
-// .c-navigation {
-//   .c-navigation--main {
-//
-//   }
-//
-//   .c-navigation--secondary {
-//
-//   }
-//
-//   .c-navigation--aside {
-//
-//   }
-//
-//   .c-navigation--footer {
-//
-//   }
-// }
+@import 'settings.global';
+@import 'tools/mixin.navigation';
+
+.c-nav {
+  @include nav;
+}
+
+.c-nav__item a {
+  @include nav__item;
+}
+
+.c-nav--inline {
+  .c-nav__content {
+    @include nav--inline__item;
+  }
+
+  .c-nav__item {
+    @include nav--inline__item;
+  }
+
+  .o-image {
+    @include o-image;
+  }
+
+  .c-nav__item--right {
+    @include nav__item--right;
+  }
+
+  .c-nav__item--buttons a {
+    @include nav__item--buttons;
+  }
+}
+
+.c-nav--fixed {
+  @include nav--fixed;
+}

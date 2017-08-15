@@ -45,7 +45,6 @@
 .c-button--success { @include button--color($u-success, $u-accent-0); }
 .c-button--error { @include button--color($u-error, $u-accent-0); }
 
-.c-button--ghost { @include button--ghost;}
 .c-button--ghost-primary { @include button--ghost($u-primary-100); }
 .c-button--ghost-secondary { @include button--ghost($u-highlight, $u-accent-80); }
 .c-button--ghost-success { @include button--ghost($u-success); }
