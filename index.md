@@ -13,6 +13,7 @@ sub: Style Guide
 * [Images](#images "Images")
 * [Video](#video "Video")
 * [Navigation](#navigation "Navigation")
+* [Footer](#footer "Footer")
 
 ---
 
@@ -929,4 +930,158 @@ Video courtesy of [videovo](https://www.videvo.net/){:target="_blank"}
     <a href="#" title="Log in" class="c-button c-button--medium c-button--ghost-secondary" role="button">Log in</a>
   </li>
 </ul>
+{% endhighlight %}
+
+
+### Footer
+<footer class="c-footer">
+  <div class="c-footer__header">
+    <a href="#" class="c-button c-button--primary c-button--block c-button--square" title="Back to Top" role="button">Back to Top</a>
+  </div>
+  <div class="c-footer__content">
+    <div class="o-grid o-grid--small-full o-grid--medium-full o-grid--no-gutter">
+      <div class="o-grid__col">
+        <ul class="e-unordered-list e-unordered-list--unstyled">
+          <li><h6 class="e-heading--headline">Title</h6></li>
+          <li><a class="c-footer__item" href="#" title="Link 1">Link 1</a></li>
+          <li><a class="c-footer__item" href="#" title="Link 2">Link 2</a></li>
+          <li><a class="c-footer__item" href="#" title="Link 3">Link 3</a></li>
+          <li><a class="c-footer__item" href="#" title="Link 4">Link 4</a></li>
+          <li><a class="c-footer__item" href="#" title="Link 5">Link 5</a></li>
+          <li><a class="c-footer__item" href="#" title="Link 6">Link 6</a></li>
+          <li><a class="c-footer__item" href="#" title="Link 7">Link 7</a></li>
+          <li><a class="c-footer__item" href="#" title="Link 8">Link 8</a></li>
+          <li><a class="c-footer__item" href="#" title="Link 9">Link 9</a></li>
+          <li><a class="c-footer__item" href="#" title="Link 10">Link 10</a></li>
+        </ul>
+      </div>
+      <div class="o-grid__col">
+        <ul class="e-unordered-list e-unordered-list--unstyled">
+          <li><h6 class="e-heading--headline">Title</h6></li>
+          <li><a class="c-footer__item" href="#" title="Link 1">Link 1</a></li>
+          <li><a class="c-footer__item" href="#" title="Link 2">Link 2</a></li>
+          <li><a class="c-footer__item" href="#" title="Link 3">Link 3</a></li>
+          <li><a class="c-footer__item" href="#" title="Link 4">Link 4</a></li>
+          <li><a class="c-footer__item" href="#" title="Link 5">Link 5</a></li>
+          <li><a class="c-footer__item" href="#" title="Link 6">Link 6</a></li>
+          <li><a class="c-footer__item" href="#" title="Link 7">Link 7</a></li>
+          <li><a class="c-footer__item" href="#" title="Link 8">Link 8</a></li>
+          <li><a class="c-footer__item" href="#" title="Link 9">Link 9</a></li>
+          <li><a class="c-footer__item" href="#" title="Link 10">Link 10</a></li>
+        </ul>
+      </div>
+      <div class="o-grid__col">
+        <ul class="e-unordered-list e-unordered-list--unstyled">
+          <li><h6 class="e-heading--headline">Title</h6></li>
+          <li><a class="c-footer__item" href="#" title="Link 1">Link 1</a></li>
+          <li><a class="c-footer__item" href="#" title="Link 2">Link 2</a></li>
+          <li><a class="c-footer__item" href="#" title="Link 3">Link 3</a></li>
+          <li><a class="c-footer__item" href="#" title="Link 4">Link 4</a></li>
+          <li><a class="c-footer__item" href="#" title="Link 5">Link 5</a></li>
+          <li><a class="c-footer__item" href="#" title="Link 6">Link 6</a></li>
+          <li><a class="c-footer__item" href="#" title="Link 7">Link 7</a></li>
+          <li><a class="c-footer__item" href="#" title="Link 8">Link 8</a></li>
+          <li><a class="c-footer__item" href="#" title="Link 9">Link 9</a></li>
+          <li><a class="c-footer__item" href="#" title="Link 10">Link 10</a></li>
+        </ul>
+      </div>
+      <div class="o-grid__col">
+        <ul class="e-unordered-list e-unordered-list--unstyled">
+          <li><h6 class="e-heading--headline">Title</h6></li>
+          <li><a class="c-footer__item" href="#" title="Link 1">Link 1</a></li>
+          <li><a class="c-footer__item" href="#" title="Link 2">Link 2</a></li>
+          <li><a class="c-footer__item" href="#" title="Link 3">Link 3</a></li>
+          <li><a class="c-footer__item" href="#" title="Link 4">Link 4</a></li>
+          <li><a class="c-footer__item" href="#" title="Link 5">Link 5</a></li>
+          <li><a class="c-footer__item" href="#" title="Link 6">Link 6</a></li>
+          <li><a class="c-footer__item" href="#" title="Link 7">Link 7</a></li>
+          <li><a class="c-footer__item" href="#" title="Link 8">Link 8</a></li>
+          <li><a class="c-footer__item" href="#" title="Link 9">Link 9</a></li>
+          <li><a class="c-footer__item" href="#" title="Link 10">Link 10</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="c-footer__footer">
+    <p class="e-paragraph--small u-typography--secret">A very important paragraph should go here detailing the sites Terms & Conditions.</p>
+    <p class="e-paragraph--small u-typography--secret">&copy; Copyright</p>
+  </div>
+</footer>
+
+
+
+{% highlight html %}
+<footer class="c-footer">
+  <div class="c-footer__header">
+    <a href="#" class="c-button c-button--primary c-button--block c-button--square" title="Back to Top" role="button">Back to Top</a>
+  </div>
+  <div class="c-footer__content">
+    <div class="o-grid o-grid--small-full o-grid--medium-full o-grid--no-gutter">
+      <div class="o-grid__col">
+        <ul class="e-unordered-list e-unordered-list--unstyled">
+          <li><h6 class="e-heading--headline">Title</h6></li>
+          <li><a class="c-footer__item" href="#" title="Link 1">Link 1</a></li>
+          <li><a class="c-footer__item" href="#" title="Link 2">Link 2</a></li>
+          <li><a class="c-footer__item" href="#" title="Link 3">Link 3</a></li>
+          <li><a class="c-footer__item" href="#" title="Link 4">Link 4</a></li>
+          <li><a class="c-footer__item" href="#" title="Link 5">Link 5</a></li>
+          <li><a class="c-footer__item" href="#" title="Link 6">Link 6</a></li>
+          <li><a class="c-footer__item" href="#" title="Link 7">Link 7</a></li>
+          <li><a class="c-footer__item" href="#" title="Link 8">Link 8</a></li>
+          <li><a class="c-footer__item" href="#" title="Link 9">Link 9</a></li>
+          <li><a class="c-footer__item" href="#" title="Link 10">Link 10</a></li>
+        </ul>
+      </div>
+      <div class="o-grid__col">
+        <ul class="e-unordered-list e-unordered-list--unstyled">
+          <li><h6 class="e-heading--headline">Title</h6></li>
+          <li><a class="c-footer__item" href="#" title="Link 1">Link 1</a></li>
+          <li><a class="c-footer__item" href="#" title="Link 2">Link 2</a></li>
+          <li><a class="c-footer__item" href="#" title="Link 3">Link 3</a></li>
+          <li><a class="c-footer__item" href="#" title="Link 4">Link 4</a></li>
+          <li><a class="c-footer__item" href="#" title="Link 5">Link 5</a></li>
+          <li><a class="c-footer__item" href="#" title="Link 6">Link 6</a></li>
+          <li><a class="c-footer__item" href="#" title="Link 7">Link 7</a></li>
+          <li><a class="c-footer__item" href="#" title="Link 8">Link 8</a></li>
+          <li><a class="c-footer__item" href="#" title="Link 9">Link 9</a></li>
+          <li><a class="c-footer__item" href="#" title="Link 10">Link 10</a></li>
+        </ul>
+      </div>
+      <div class="o-grid__col">
+        <ul class="e-unordered-list e-unordered-list--unstyled">
+          <li><h6 class="e-heading--headline">Title</h6></li>
+          <li><a class="c-footer__item" href="#" title="Link 1">Link 1</a></li>
+          <li><a class="c-footer__item" href="#" title="Link 2">Link 2</a></li>
+          <li><a class="c-footer__item" href="#" title="Link 3">Link 3</a></li>
+          <li><a class="c-footer__item" href="#" title="Link 4">Link 4</a></li>
+          <li><a class="c-footer__item" href="#" title="Link 5">Link 5</a></li>
+          <li><a class="c-footer__item" href="#" title="Link 6">Link 6</a></li>
+          <li><a class="c-footer__item" href="#" title="Link 7">Link 7</a></li>
+          <li><a class="c-footer__item" href="#" title="Link 8">Link 8</a></li>
+          <li><a class="c-footer__item" href="#" title="Link 9">Link 9</a></li>
+          <li><a class="c-footer__item" href="#" title="Link 10">Link 10</a></li>
+        </ul>
+      </div>
+      <div class="o-grid__col">
+        <ul class="e-unordered-list e-unordered-list--unstyled">
+          <li><h6 class="e-heading--headline">Title</h6></li>
+          <li><a class="c-footer__item" href="#" title="Link 1">Link 1</a></li>
+          <li><a class="c-footer__item" href="#" title="Link 2">Link 2</a></li>
+          <li><a class="c-footer__item" href="#" title="Link 3">Link 3</a></li>
+          <li><a class="c-footer__item" href="#" title="Link 4">Link 4</a></li>
+          <li><a class="c-footer__item" href="#" title="Link 5">Link 5</a></li>
+          <li><a class="c-footer__item" href="#" title="Link 6">Link 6</a></li>
+          <li><a class="c-footer__item" href="#" title="Link 7">Link 7</a></li>
+          <li><a class="c-footer__item" href="#" title="Link 8">Link 8</a></li>
+          <li><a class="c-footer__item" href="#" title="Link 9">Link 9</a></li>
+          <li><a class="c-footer__item" href="#" title="Link 10">Link 10</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="c-footer__footer">
+    <p class="e-paragraph--small u-typography--secret">A very important paragraph should go here detailing the sites Terms & Conditions.</p>
+    <p class="e-paragraph--small u-typography--secret">&copy; Copyright</p>
+  </div>
+</footer>
 {% endhighlight %}

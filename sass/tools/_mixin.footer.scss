@@ -1,0 +1,42 @@
+@import "settings.global";
+
+@mixin footer--color($background-color: $footer-background-color, $color: $footer-color) {
+  color: $color;
+  background-color: $background-color;
+}
+
+@mixin footer {
+  width: $footer-width;
+  z-index: $footer-z-index;
+  padding: $footer-padding;
+  @include footer--color;
+}
+
+@mixin footer__item--color($hover-color: $footer-item-hover-color) {
+  & {
+    color: $footer-color;
+
+    &:visited {
+      color: $footer-color;
+    }
+
+    &:hover, &:focus {
+      color: $hover-color;
+      text-decoration: underline;
+    }
+
+    &:active {
+      color: $hover-color;
+    }
+  }
+}
+
+@mixin footer__item {
+  display: block;
+  margin: $footer-item-margin;
+  color: inherit;
+  letter-spacing: $nav-item-letter-spacing;
+  cursor: pointer;
+  text-decoration: none;
+  @include footer__item--color;
+}

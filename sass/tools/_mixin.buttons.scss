@@ -63,6 +63,7 @@
   cursor: pointer;
   user-select: none;
   appearance: none;
+  text-align: center;
   @include button--color;
 
   &:disabled {
@@ -75,6 +76,10 @@
 
 @mixin button--rounded {
   border-radius: $button-rounded-border-radius;
+}
+
+@mixin button--square {
+  border-radius: 0;
 }
 
 @mixin button--close {

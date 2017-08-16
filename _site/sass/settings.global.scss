@@ -201,7 +201,7 @@ $button-border-radius: $border-radius !default;
 $button-focus-border-color: $border-color-focus !default;
 $button-focus-box-shadow: $box-shadow-focus !default;
 
-$button-ghost-color: $border-color !default;
+$button-ghost-color: $u-accent-0 !default;
 $button-ghost-color-hover: $u-accent-0 !default;
 $button-ghost-border-width: $button-border-width !default;
 $button-ghost-border-style: $button-border-style !default;
@@ -274,15 +274,25 @@ $nav-line-height: 67px !default;
 $nav-padding: 0 !default;
 $nav-margin: 0 !default;
 $nav-background-color: $u-primary-100 !default;
-$nav-color: $u-accent-0 !default;
 $nav-z-index: $z-over-page !default;
-
 $nav-item-padding: 0 $spacing-large !default;
 $nav-item-letter-spacing: 1px !default;
 $nav-buttons-line-height: 30px !default;
 $nav-buttons-width: 100px !default;
-
+$nav-color: $u-accent-0 !default;
 $nav-item-hover-color: $u-highlight !default;
-
-$nav-item-active-background-color: $u-accent-80 !default;
 $nav-item-active-color: $u-accent-0 !default;
+
+
+/*
+* Footer
+*/
+$footer-width: 100% !default;
+$footer-padding: 0 0 1em !default;
+$footer-margin: 0 !default;
+$footer-item-margin: .5em 0 0 !default;
+$footer-background-color: $u-primary-100 !default;
+$footer-color: $u-accent-0 !default;
+$footer-z-index: $z-over-page !default;
+$footer-color: $u-accent-0 !default;
+$footer-item-hover-color: $u-highlight !default;

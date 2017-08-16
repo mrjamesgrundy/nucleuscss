@@ -12,6 +12,10 @@
   @include button--block;
 }
 
+.c-button--square {
+  @include button--square;
+}
+
 .c-button--rounded {
   @include button--rounded;
 }
@@ -41,12 +45,12 @@
 }
 
 .c-button--primary { @include button--color($u-primary-80, $u-accent-0); }
-.c-button--secondary { @include button--color($u-highlight, $u-accent-80);}
+.c-button--secondary { @include button--color($u-highlight, $u-accent-80); }
 .c-button--success { @include button--color($u-success, $u-accent-0); }
 .c-button--error { @include button--color($u-error, $u-accent-0); }
 
 .c-button--ghost-primary { @include button--ghost($u-primary-100); }
-.c-button--ghost-secondary { @include button--ghost($u-highlight, $u-accent-80); }
+.c-button--ghost-secondary { @include button--ghost($u-accent-0, $u-primary-100); }
 .c-button--ghost-success { @include button--ghost($u-success); }
 .c-button--ghost-error { @include button--ghost($u-error); }
 

@@ -1,0 +1,11 @@
+@import "tools/mixin.footer";
+@import 'tools/mixin.footer';
+
+.c-footer {
+  @include footer;
+
+}
+
+.c-footer__item {
+  @include footer__item;
+}

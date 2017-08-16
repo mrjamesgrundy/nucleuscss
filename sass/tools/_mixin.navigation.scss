@@ -62,7 +62,8 @@
   display: inline-block;
   line-height: $nav-buttons-line-height;
   width: $nav-buttons-width;
-  text-align: center;
+  color: inherit;
+  box-shadow: initial;
 }
 
 @mixin nav--fixed {

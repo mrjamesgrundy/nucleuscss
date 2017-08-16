@@ -30,6 +30,10 @@
   @include paragraph;
 }
 
+.e-paragraph--small {
+  @include paragraph--small;
+}
+
 // Alignment
 .u-typography--left {
   @include align--left;
@@ -115,10 +119,10 @@ code.e-code,
 kbd.e-code,
 pre.e-code,
 samp.e-code {
-  // @include code;
+  @include code;
 }
 
-// Lists
+// Lists - REFACTOR TO MIXIN
 dl.e-definition-list {
   font-size: $paragraph;
 
@@ -180,7 +184,7 @@ ul.e-unordered-list {
   }
 }
 
-// Blockquote
+// Blockquote - REFACTOR TO MIXIN
 blockquote.e-blockquote {
   quotes: "'" "'";
   display: block;

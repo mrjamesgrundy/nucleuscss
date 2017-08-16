@@ -5,6 +5,7 @@
 @import "tools/mixin.cards";
 @import "tools/mixin.container";
 @import "tools/mixin.display";
+@import "tools/mixin.footer";
 @import "tools/mixin.grid";
 @import "tools/mixin.media";
 @import "tools/mixin.mediaqueries";
@@ -25,6 +26,7 @@
 
 @import 'components.buttons';
 @import 'components.cards';
+@import 'components.footer';
 @import 'components.navigation';
 
 @import 'utilities.display';

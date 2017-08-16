@@ -45,6 +45,11 @@
   @include font-size(14);
 }
 
+@mixin paragraph--small {
+  font-weight: $text-font-weight-regular;
+  @include font-size(12);
+}
+
 @mixin code {
   font-weight: $text-font-weight-regular;
   @include font-size(14);
