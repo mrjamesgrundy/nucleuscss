@@ -5,6 +5,7 @@
   box-shadow: $card-box-shadow;
   border-radius: $card-border-radius;
   overflow: hidden;
+  background-color: $u-accent-0;
 }
 
 @mixin card-wide {

@@ -14,6 +14,7 @@ sub: Style Guide
 * [Video](#video "Video")
 * [Navigation](#navigation "Navigation")
 * [Footer](#footer "Footer")
+* [Accordion](#accordion "Accordion")
 
 ---
 
@@ -936,7 +937,7 @@ Video courtesy of [videovo](https://www.videvo.net/){:target="_blank"}
 ### Footer
 <footer class="c-footer">
   <div class="c-footer__header">
-    <a href="#" class="c-button c-button--primary c-button--block c-button--square" title="Back to Top" role="button">Back to Top</a>
+    <a href="#" class="c-button c-button--primary c-button--small c-button--block c-button--square" title="Back to Top" role="button">Back to Top</a>
   </div>
   <div class="c-footer__content">
     <div class="o-grid o-grid--small-full o-grid--medium-full o-grid--no-gutter">
@@ -1003,17 +1004,23 @@ Video courtesy of [videovo](https://www.videvo.net/){:target="_blank"}
     </div>
   </div>
   <div class="c-footer__footer">
+    <ul class="e-unordered-list e-unordered-list--inline">
+      <li><a class="c-footer__item" href="#" title="Link 1">Link 1</a></li>
+      <li><a class="c-footer__item" href="#" title="Link 2">Link 2</a></li>
+      <li><a class="c-footer__item" href="#" title="Link 3">Link 3</a></li>
+      <li><a class="c-footer__item" href="#" title="Link 4">Link 4</a></li>
+      <li><a class="c-footer__item" href="#" title="Link 5">Link 5</a></li>
+    </ul>
+
     <p class="e-paragraph--small u-typography--secret">A very important paragraph should go here detailing the sites Terms & Conditions.</p>
     <p class="e-paragraph--small u-typography--secret">&copy; Copyright</p>
   </div>
 </footer>
-
-
 
 {% highlight html %}
 <footer class="c-footer">
   <div class="c-footer__header">
-    <a href="#" class="c-button c-button--primary c-button--block c-button--square" title="Back to Top" role="button">Back to Top</a>
+    <a href="#" class="c-button c-button--primary c-button--small c-button--block c-button--square" title="Back to Top" role="button">Back to Top</a>
   </div>
   <div class="c-footer__content">
     <div class="o-grid o-grid--small-full o-grid--medium-full o-grid--no-gutter">
@@ -1080,8 +1087,43 @@ Video courtesy of [videovo](https://www.videvo.net/){:target="_blank"}
     </div>
   </div>
   <div class="c-footer__footer">
+    <ul class="e-unordered-list e-unordered-list--inline">
+      <li><a class="c-footer__item" href="#" title="Link 1">Link 1</a></li>
+      <li><a class="c-footer__item" href="#" title="Link 2">Link 2</a></li>
+      <li><a class="c-footer__item" href="#" title="Link 3">Link 3</a></li>
+      <li><a class="c-footer__item" href="#" title="Link 4">Link 4</a></li>
+      <li><a class="c-footer__item" href="#" title="Link 5">Link 5</a></li>
+    </ul>
+
     <p class="e-paragraph--small u-typography--secret">A very important paragraph should go here detailing the sites Terms & Conditions.</p>
     <p class="e-paragraph--small u-typography--secret">&copy; Copyright</p>
   </div>
 </footer>
+{% endhighlight %}
+
+### Accordion
+<div class="c-card c-card--accordion c-card--high">
+  <input type="checkbox" id="accordion-1">
+  <label class="c-card__item" for="accordion-1">Item 1</label>
+  <div class="c-card__item">Pane 1</div>
+  <input type="checkbox" id="accordion-2">
+  <label class="c-card__item" for="accordion-2">Item 2</label>
+  <div class="c-card__item">Pane 2</div>
+  <input type="checkbox" id="accordion-3">
+  <label class="c-card__item" for="accordion-3">Item 3</label>
+  <div class="c-card__item">Pane 3</div>
+</div>
+
+{% highlight html %}
+<div class="c-card c-card--accordion c-card--high">
+  <input type="checkbox" id="accordion-1">
+  <label class="c-card__item" for="accordion-1">Item 1</label>
+  <div class="c-card__item">Pane 1</div>
+  <input type="checkbox" id="accordion-2">
+  <label class="c-card__item" for="accordion-2">Item 2</label>
+  <div class="c-card__item">Pane 2</div>
+  <input type="checkbox" id="accordion-3">
+  <label class="c-card__item" for="accordion-3">Item 3</label>
+  <div class="c-card__item">Pane 3</div>
+</div>
 {% endhighlight %}

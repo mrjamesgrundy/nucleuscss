@@ -8,8 +8,24 @@
 @mixin footer {
   width: $footer-width;
   z-index: $footer-z-index;
-  padding: $footer-padding;
   @include footer--color;
+}
+
+@mixin footer__header {
+  padding: $footer-padding;
+}
+
+@mixin footer__content {
+  padding: $footer-padding;
+}
+
+@mixin footer__footer {
+  background-color: $footer-background-footer-color;
+  padding: $footer-padding;
+
+  .e-unordered-list--inline {
+    margin-top: $footer-margin;
+  }
 }
 
 @mixin footer__item--color($hover-color: $footer-item-hover-color) {

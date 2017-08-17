@@ -252,7 +252,7 @@ $card-divider-color: $u-accent-0 !default;
 $card-divider-font-weight: $text-font-weight-heavy !default;
 
 $card-item-active-background-color: $card-border-color !default;
-$card-item-padding: $spacing-xsmall $spacing-large $spacing-large !default;
+$card-item-padding: $spacing-large !default;
 
 
 /*
@@ -278,6 +278,7 @@ $nav-z-index: $z-over-page !default;
 $nav-item-padding: 0 $spacing-large !default;
 $nav-item-letter-spacing: 1px !default;
 $nav-buttons-line-height: 30px !default;
+$nav-buttons-margin: .5em !default;
 $nav-buttons-width: 100px !default;
 $nav-color: $u-accent-0 !default;
 $nav-item-hover-color: $u-highlight !default;
@@ -288,10 +289,11 @@ $nav-item-active-color: $u-accent-0 !default;
 * Footer
 */
 $footer-width: 100% !default;
-$footer-padding: 0 0 1em !default;
+$footer-padding: 1.5em 0 !default;
 $footer-margin: 0 !default;
 $footer-item-margin: .5em 0 0 !default;
 $footer-background-color: $u-primary-100 !default;
+$footer-background-footer-color: $u-primary-80 !default;
 $footer-color: $u-accent-0 !default;
 $footer-z-index: $z-over-page !default;
 $footer-color: $u-accent-0 !default;
