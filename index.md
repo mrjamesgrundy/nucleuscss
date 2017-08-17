@@ -1094,7 +1094,6 @@ Video courtesy of [videovo](https://www.videvo.net/){:target="_blank"}
       <li><a class="c-footer__item" href="#" title="Link 4">Link 4</a></li>
       <li><a class="c-footer__item" href="#" title="Link 5">Link 5</a></li>
     </ul>
-
     <p class="e-paragraph--small u-typography--secret">A very important paragraph should go here detailing the sites Terms & Conditions.</p>
     <p class="e-paragraph--small u-typography--secret">&copy; Copyright</p>
   </div>

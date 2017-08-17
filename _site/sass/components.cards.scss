@@ -47,6 +47,35 @@
   }
 }
 
+.c-card--accordion {
+  label.c-card__item {
+    display: block;
+    position: relative;
+    width: 100%;
+    padding-left: 2em;
+    cursor: pointer;
+
+    &:before {
+      position: absolute;
+      left: .75em;
+      content: '⌃';
+      transform: rotate(90deg);
+    }
+  }
+
+  > input, input+.c-card__item+.c-card__item {
+    display: none;
+  }
+
+  > input:checked+.c-card__item+.c-card__item {
+    display: block;
+  }
+
+  > input:checked+.c-card__item:before {
+    transform: rotate(180deg);
+  }
+}
+
 .c-card--high {
   @include card--high;
 }
@@ -57,31 +86,4 @@
 
 .c-card--highest {
   @include card--highest;
-}
-
-/*
-* TEST
-*/
-.c-card--accordion label.c-card__item {
-    display: block;
-    position: relative;
-    width: 100%;
-    padding-left: 2em;
-    cursor: pointer
-}
-.c-card--accordion label.c-card__item:before {
-    position: absolute;
-    left: .75em;
-    content: '⌃';
-    transform: rotate(90deg)
-}
-.c-card--accordion>input,
-.c-card--accordion>input+.c-card__item+.c-card__item {
-    display: none
-}
-.c-card--accordion>input:checked+.c-card__item+.c-card__item {
-    display: block
-}
-.c-card--accordion>input:checked+.c-card__item:before {
-    transform: rotate(180deg)
 }
